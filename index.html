@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru"> <!--<![endif]-->
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Vandrouki</title>
+	<meta name="description" content="">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+	
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+
+	<!-- Здесь пишем код -->
+	
+	<div class="hidden"></div>
+
+	<div class="loader">
+		<div class="loader_inner"></div>
+	</div>
+
+	<div class="info__banner__modal">
+		<div class="banner__modal__wrapper">
+			<img src="img/ui/close__btn.svg" alt="" class="banner__modal__close">
+			<div class="banner__modal__content">
+				<h3 class="content__title">Как найти почти бесплатные билеты и туры? </h3>
+			</div>
+		</div>
+	</div>
+
+	<div class="info__banner">
+		<img src="img/ui/close__btn.svg" alt="" class="info__banner__close">
+		<div class="section__wrapper">
+			<div class="info__banner__wrapper">
+				<img src="img/banner__img__left.svg" alt="" class="banner__img__left">
+				<img src="img/banner__img__right.svg" alt="" class="banner__img__right">
+				<a href="#" class="how__work">Как это работает?</a>
+				<h3 class="info__banner__title">Способы путешествовать почти бесплатно</h3>
+			</div>
+		</div>
+	</div>
+
+	<header class="header" id="header">
+		<div class="header__info">
+			<div class="section__wrapper">
+				<a href="/" class="logo">
+					<svg width="136" height="40" viewBox="0 0 136 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<mask id="mask0_346_36" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="25" height="40">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M24.485 39.9625H0.0371094V0.603073H12.261H24.485V39.9625Z" fill="white"/>
+						</mask>
+						<g mask="url(#mask0_346_36)">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M2.60749 28.5261V12.8978C2.60749 11.1292 3.026 9.12738 4.65491 8.06153V12.3588C4.65491 14.2412 5.4876 15.7231 6.87418 16.544V19.1446H9.22265V17.2375C9.3636 17.2468 9.50516 17.2554 9.65044 17.2554H14.6979C14.8432 17.2554 14.9847 17.2468 15.1251 17.2369V19.1446H17.4741V16.5212C18.8502 15.688 19.6934 14.2031 19.6934 12.3588V8.04C21.0522 8.90646 21.7402 10.5274 21.7402 12.8978V28.5261H2.60749ZM7.004 7.32615C7.2012 7.31077 7.40087 7.29723 7.61476 7.29723H16.7329C16.9437 7.29723 17.1471 7.30523 17.3443 7.32061V12.3588C17.3443 13.9606 16.3546 14.9169 14.6979 14.9169H9.65044C7.96898 14.9169 7.004 13.9846 7.004 12.3588V7.32615ZM9.22265 4.3723C9.22265 3.44984 9.73327 2.94153 10.6605 2.94153H13.6878C14.8759 2.94153 15.1251 3.72 15.1251 4.3723V4.95938H9.22265V4.3723ZM21.7322 36.5471L18.0194 31.3255C17.9131 31.1821 17.7863 31.0265 17.6398 30.864H24.0893V12.8978C24.0893 8.2 21.6314 5.29538 17.4741 4.98953V4.3723C17.4741 2.15323 15.9169 0.603073 13.6878 0.603073H10.6605C8.43076 0.603073 6.87418 2.15323 6.87418 4.3723V4.98953C2.71691 5.29538 0.2584 8.2 0.2584 12.8978V30.864H8.772C8.37884 31.448 7.93745 31.8246 7.57335 32.0517L0 36.5674L2.21618 40L4.19251 38.7354L3.28687 37.3335L8.7992 34.0462C9.64425 33.5206 10.7137 32.552 11.4135 30.8689C14.2658 30.7785 15.5905 31.9865 16.1154 32.6948L21.2154 39.8683L24.4849 37.4062L23.0675 35.5415L21.7322 36.5471Z" fill="#007EA7"/>
+						</g>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M44.569 13.1311L39.6854 25.1311L34.8636 13.1311H32.02L39.6854 31.4695L47.4127 13.1311H44.569Z" fill="#007EA7"/>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M52.1109 28.7618C50.2563 28.7618 49.0818 27.1618 49.0818 25.3157C49.0818 23.3465 50.2563 21.808 52.1109 21.808C53.7181 21.808 55.2018 22.9157 55.2018 25.3157C55.2018 27.5926 53.7181 28.7618 52.1109 28.7618ZM54.9545 21.0695C54.3363 19.7157 52.6054 19.5311 51.8018 19.5311C48.8963 19.5311 46.4854 21.6849 46.4854 25.2542C46.4854 28.2695 48.34 31.0388 51.74 31.0388C52.5436 31.0388 53.7181 30.8542 54.9545 29.5618V30.4234H57.4272V19.9618H54.9545V21.0695Z" fill="#007EA7"/>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M66.4527 19.5311C65.8345 19.5311 64.2273 19.5926 63.6091 20.8234V19.9618H61.1364V30.4234H63.6091V25.5003C63.6091 21.9926 64.7836 21.808 65.9582 21.808C66.9473 21.808 67.9364 21.8695 67.9364 24.6388V30.3618H70.4091V24.0234C70.4091 22.3618 70.1 21.6234 69.7291 21.008C69.3582 20.5157 68.4309 19.5311 66.4527 19.5311Z" fill="#007EA7"/>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M77.8891 28.7618C76.0345 28.7618 74.86 27.1618 74.86 25.3157C74.86 23.3465 76.0345 21.808 77.8891 21.808C79.4964 21.808 80.98 22.9157 80.98 25.3157C80.98 27.5926 79.4964 28.7618 77.8891 28.7618ZM80.9182 21.0695C79.6818 19.7157 78.4454 19.5311 77.6418 19.5311C74.7363 19.5311 72.3254 21.6849 72.3254 25.2542C72.3254 28.2695 74.3036 31.0388 77.6418 31.0388C78.4454 31.0388 79.6818 30.8542 80.9182 29.5618V30.4234H83.3909V11.9618H80.9182V21.0695Z" fill="#007EA7"/>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M90.0673 19.9003C89.6963 20.0849 89.5109 20.4542 88.8927 20.8234V19.9618H86.42V30.4234H88.8927V25.0695C88.8927 24.3311 88.9545 23.2849 89.6963 22.5465C90.1909 22.0542 90.8091 21.9311 91.3036 21.9311C91.5509 21.9311 92.0454 21.9311 92.6018 22.3003L93.7145 20.0234C93.0345 19.5926 92.2927 19.5311 91.6745 19.5311C91.1182 19.5311 90.5618 19.5926 90.0673 19.9003Z" fill="#007EA7"/>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M99.9582 28.7618C97.98 28.7618 96.6818 27.408 96.6818 25.3157C96.6818 22.8542 98.2891 21.808 99.9582 21.808C101.627 21.808 103.235 22.7926 103.235 25.3157C103.173 27.3465 101.936 28.7618 99.9582 28.7618ZM99.9582 19.5311C96.6818 19.5311 94.0854 21.9311 94.0854 25.2542C94.0854 28.5772 96.62 31.0388 99.9582 31.0388C103.296 31.0388 105.831 28.6388 105.831 25.2542C105.769 21.8695 103.235 19.5311 99.9582 19.5311Z" fill="#007EA7"/>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M115.536 26.0542C115.536 26.7311 115.351 27.4695 114.918 28.0234C114.609 28.4542 113.929 28.7618 113.187 28.7618C112.445 28.7618 111.951 28.4542 111.58 28.0234C111.147 27.4695 111.209 26.7311 111.209 26.0542V19.9618H108.736V26.1772C108.736 27.5926 108.736 28.7618 109.787 29.7465C110.776 30.7311 112.075 31.1003 113.187 31.1003C114.424 31.1003 115.845 30.7311 116.835 29.7465C117.824 28.7618 118.071 27.5926 118.071 26.1772V19.9003H115.598V26.0542H115.536Z" fill="#007EA7"/>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M130.496 19.9003H127.096L123.573 23.4695V11.9003H121.1V30.3618H123.573V26.4849L124.005 25.8695L127.591 30.3618H130.805L125.736 24.208L130.496 19.9003Z" fill="#007EA7"/>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M132.845 30.3618H135.318V19.9003H132.845V30.3618Z" fill="#007EA7"/>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M134.082 16.7095C134.94 16.7095 135.57 16.0831 135.57 15.2283C135.57 14.3729 134.94 13.7465 134.082 13.7465C133.223 13.7465 132.593 14.3729 132.593 15.2283C132.593 16.0258 133.223 16.7095 134.082 16.7095Z" fill="#007EA7"/>
+					</svg>						
+				</a>
+				<div class="search">
+					<form action="#" id="search">
+						<input type="search" name="search" id="search_input" class="form__input" placeholder="Поиск путешествовий">
+						<input type="submit" name="search_submit" id="search_submit" value="" class="form__submit">
+					</form>
+				</div>
+				<div class="menu">
+					<div class="menu__overlay"></div>
+					<div class="menu__wrapper">
+						<div class="menu__icon"></div>
+						<div class="menu__list">
+							<div class="menu__container">
+								<svg xmlns="http://www.w3.org/2000/svg" width="20" height="33" viewBox="0 0 20 33" fill="none" class="menu__van">
+									<mask id="mask0_308_6975" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="33">
+									  <path fill-rule="evenodd" clip-rule="evenodd" d="M20 33H0V0H10H20V33Z" fill="white"/>
+									</mask>
+									<g mask="url(#mask0_308_6975)">
+									  <path fill-rule="evenodd" clip-rule="evenodd" d="M2.10277 23.4114V10.3082C2.10277 8.82533 2.44514 7.14692 3.77769 6.25329V9.8562C3.77769 11.4345 4.45889 12.6769 5.59321 13.3652V15.5456H7.51442V13.9467C7.62972 13.9544 7.74553 13.9617 7.86437 13.9617H11.9935C12.1124 13.9617 12.2282 13.9544 12.343 13.9462V15.5456H14.2647V13.3461C15.3904 12.6475 16.0802 11.4025 16.0802 9.8562V6.23523C17.1918 6.96169 17.7546 8.32072 17.7546 10.3082V23.4114H2.10277ZM5.69942 5.63673C5.86074 5.62383 6.02409 5.61248 6.19906 5.61248H13.6584C13.8308 5.61248 13.9972 5.61918 14.1585 5.63208V9.85621C14.1585 11.1992 13.3489 12.001 11.9935 12.001H7.86438C6.48884 12.001 5.69942 11.2194 5.69942 9.85621V5.63673ZM7.51442 3.16033C7.51442 2.38691 7.93214 1.96073 8.69071 1.96073H11.1672C12.1392 1.96073 12.343 2.61341 12.343 3.16033V3.65255H7.51442V3.16033ZM17.7481 30.1364L14.7107 25.7586C14.6238 25.6383 14.5201 25.5078 14.4002 25.3716H19.6764V10.3083C19.6764 6.36947 17.6656 3.93416 14.2647 3.67773V3.16023C14.2647 1.29969 12.9908 0 11.1672 0H8.69071C6.8666 0 5.59321 1.29969 5.59321 3.16023V3.67773C2.19228 3.93416 0.181054 6.36947 0.181054 10.3083V25.3716H7.14576C6.82412 25.8612 6.46304 26.177 6.16517 26.3674L-0.0303345 30.1535L1.78265 33.0315L3.39942 31.9712L2.65855 30.7958L7.16801 28.0396C7.85932 27.599 8.73421 26.7869 9.30667 25.3757C11.64 25.2999 12.7238 26.3127 13.1531 26.9066L17.3253 32.9211L20 30.8567L18.8404 29.2934L17.7481 30.1364Z" fill="white"/>
+									</g>
+								</svg>
+								<nav class="nav__list">
+									<ul>
+										<li><a href="/">О нас</a></li>
+										<li><a href="/">Прислать акцию</a></li>
+										<li><a href="/">Мерч</a></li>
+										<li><a href="/">Реклама и сотрудничество</a></li>
+										<li><a href="/">Бот для уведомлений</a></li>
+									</ul>
+								</nav>
+								<div class="menu__soc">
+									<a href="#" class="soc__link">
+										<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+											<rect width="40" height="40" rx="20" fill="#55ACE3"/>
+											<path d="M30.6 14.9C29.9 15.2 29.1 15.4 28.3 15.5C29.1 15 29.8 14.2 30.1 13.3C29.3 13.8 28.5 14.1 27.5 14.3C26.8 13.5 25.7 13 24.6 13C22.4 13 20.6 14.8 20.6 17C20.6 17.3 20.6 17.6 20.7 17.9C17.4 17.7 14.4 16.1 12.4 13.7C12.1 14.3 11.9 15 11.9 15.7C11.9 17.1 12.6 18.3 13.7 19C13 19 12.4 18.8 11.9 18.5C11.9 20.4 13.3 22.1 15.1 22.4C14.8 22.5 14.4 22.5 14 22.5C13.7 22.5 13.5 22.5 13.2 22.4C13.7 24 15.2 25.2 17 25.2C15.6 26.3 13.9 26.9 12 26.9C11.7 26.9 11.4 26.9 11 26.8C12.8 27.9 14.9 28.6 17.2 28.6C24.6 28.6 28.6 22.5 28.6 17.2V16.7C29.4 16.4 30.1 15.7 30.6 14.9Z" fill="white"/>
+										</svg>
+									</a>
+									<a href="#" class="soc__link">
+										<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+											<rect width="40" height="40" rx="20" fill="#0077FF"/>
+											<path d="M20.9825 27C13.466 27 9.17864 21.7447 9 13H12.7651C12.8888 19.4184 15.6646 22.1371 17.8632 22.6977V13H21.4085V18.5355C23.5796 18.2973 25.8607 15.7748 26.6302 13H30.1755C29.8855 14.4391 29.3075 15.8017 28.4776 17.0025C27.6477 18.2033 26.5837 19.2166 25.3523 19.979C26.7269 20.6756 27.941 21.6615 28.9145 22.8717C29.888 24.082 30.5988 25.489 31 27H27.0974C26.7373 25.6876 26.0054 24.5128 24.9934 23.6228C23.9814 22.7328 22.7343 22.1673 21.4085 21.997V27H20.9825Z" fill="white"/>
+										</svg>
+									</a>
+									<a href="#" class="soc__link">
+										<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+											<rect width="40" height="40" rx="20" fill="#27A6E5"/>
+											<path d="M28 12.6022L24.9946 28.2923C24.9946 28.2923 24.5741 29.3801 23.4189 28.8584L16.4846 23.3526L16.4524 23.3364C17.3891 22.4654 24.6524 15.7027 24.9698 15.3961C25.4613 14.9214 25.1562 14.6387 24.5856 14.9974L13.8568 22.053L9.71764 20.6108C9.71764 20.6108 9.06626 20.3708 9.00359 19.8491C8.9401 19.3265 9.73908 19.0439 9.73908 19.0439L26.6131 12.1889C26.6131 12.1889 28 11.5579 28 12.6022Z" fill="#FEFEFE"/>
+										</svg>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header__category">
+			<div class="section__wrapper">
+				<div class="cat__arrow arrow prev">
+					<svg width="7" height="13" viewBox="0 0 7 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M0.976562 12.4087C0.478516 12.4087 0.0883789 12.0186 0.0883789 11.5288C0.0883789 11.2798 0.187988 11.064 0.362305 10.8896L4.80322 6.50684L0.362305 2.11572C0.187988 1.94141 0.0883789 1.71729 0.0883789 1.47656C0.0883789 0.986816 0.478516 0.59668 0.976562 0.59668C1.21729 0.59668 1.4248 0.679688 1.59082 0.845703L6.61279 5.81787C6.82031 6.00879 6.91162 6.24121 6.91162 6.49854C6.91162 6.76416 6.81201 6.97998 6.61279 7.1875L1.59082 12.1514C1.4248 12.3174 1.21729 12.4087 0.976562 12.4087Z" fill="white"/>
+					</svg>	
+				</div>
+				<div class="cat__list">
+					<a href="#" class="cat__list__item active">
+						<div class="item__icon">
+							<img src="img/ui/all.svg" alt="">
+						</div>
+						<div class="item__title">Все</div>
+					</a>
+					<a href="#" class="cat__list__item">
+						<div class="item__icon">
+							<img src="img/ui/all.svg" alt="">
+						</div>
+						<div class="item__title">Все</div>
+					</a>
+					<a href="#" class="cat__list__item">
+						<div class="item__icon">
+							<img src="img/ui/all.svg" alt="">
+						</div>
+						<div class="item__title">Все</div>
+					</a>
+					<a href="#" class="cat__list__item">
+						<div class="item__icon">
+							<img src="img/ui/all.svg" alt="">
+						</div>
+						<div class="item__title">Все</div>
+					</a>
+				</div>
+				<div class="cat__arrow arrow next">
+					<svg width="7" height="13" viewBox="0 0 7 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M0.976562 12.4087C0.478516 12.4087 0.0883789 12.0186 0.0883789 11.5288C0.0883789 11.2798 0.187988 11.064 0.362305 10.8896L4.80322 6.50684L0.362305 2.11572C0.187988 1.94141 0.0883789 1.71729 0.0883789 1.47656C0.0883789 0.986816 0.478516 0.59668 0.976562 0.59668C1.21729 0.59668 1.4248 0.679688 1.59082 0.845703L6.61279 5.81787C6.82031 6.00879 6.91162 6.24121 6.91162 6.49854C6.91162 6.76416 6.81201 6.97998 6.61279 7.1875L1.59082 12.1514C1.4248 12.3174 1.21729 12.4087 0.976562 12.4087Z" fill="white"/>
+					</svg>						
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main class="main" id="main">
+		<div class="section__wrapper">
+			<section class="content__control">
+				<div class="from">
+					<div class="from__btn">
+						<div class="btn__overlay"></div>
+						<span class="from__text">Откуда угодно</span>
+						<svg xmlns="http://www.w3.org/2000/svg" width="12" height="8" viewBox="0 0 12 8" fill="none">
+							<path d="M1.05683 0.353168C1.25194 0.158056 1.56823 0.157884 1.76355 0.352783L5.64683 4.2276C5.84201 4.42235 6.15799 4.42235 6.35317 4.2276L10.2364 0.352782C10.4318 0.157884 10.7481 0.158056 10.9432 0.353168L11.6464 1.05645C11.8417 1.25171 11.8417 1.56829 11.6464 1.76355L6.35355 7.05645C6.15829 7.25171 5.84171 7.25171 5.64645 7.05645L0.353553 1.76355C0.158291 1.56829 0.158291 1.25171 0.353553 1.05645L1.05683 0.353168Z" fill="white"/>
+						</svg>
+					</div>
+					<div class="from__modal__container">
+						<div class="from__modal">
+							<div class="from__control">
+								<form action="#" id="from__search">
+									<input type="search" name="search" id="search_input" class="form__input" placeholder="Найти город">
+									<input type="submit" name="search_submit" id="search_submit" value="" class="form__submit">
+								</form>
+								<img src="img/ui/close__btn.svg" alt="" class="from__modal__close">
+							</div>
+							<div class="from__list">
+								<a href="#" class="from__list__link active">Откуда угодно</a>
+								<a href="#" class="from__list__link">из Москвы</a>
+								<a href="#" class="from__list__link">из Питера</a>
+								<a href="#" class="from__list__link">из Уфы</a>
+								<a href="#" class="from__list__link">из Челябинска</a>
+								<a href="#" class="from__list__link">из Екатеринбурга</a>
+								<a href="#" class="from__list__link">из Казани</a>
+								<a href="#" class="from__list__link">из Новгорода</a>
+								<a href="#" class="from__list__link">из Калининграда</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<div class="section__wrapper">
+			<div class="content">
+				<section class="content__wrapper">
+					<article class="post__item">
+						<div class="post__item__img">
+							<div class="post__tags">
+								<a href="#" class="post__tag">Тур</a>
+								<a href="#" class="post__tag">на Кубу</a>
+							</div>
+							<img src="img/post__mini.jpg" alt="" class="post__miniature">
+						</div>
+						<div class="done">
+							<img src="img/ui/done.svg" alt="">
+							<span class="done__text">Закончилось</span>
+						</div>
+						<div class="post__item__info">
+							<span class="posting__date">Сегодня в 13:56</span>
+							<h3 class="post__title">12-14 ночей на Кубе с 15 сентября</h3>
+							<div class="tour__info">
+								<div class="post__price">
+									<span class="price__value">
+										<div class="price__by">от</div>
+										<span class="price__count">9950</span>
+										<div class="price__currency">₽</div>
+									</span>
+									<span class="for__unit">с человека</span>
+								</div>
+								<a href="#" class="more__btn"></a>
+							</div>
+						</div>
+					</article>
+					<article class="post__item ended">
+						<div class="post__item__img">
+							<div class="post__tags">
+								<a href="#" class="post__tag">Тур</a>
+								<a href="#" class="post__tag">на Кубу</a>
+							</div>
+							<img src="img/post__mini.jpg" alt="" class="post__miniature">
+						</div>
+						<div class="done">
+							<img src="img/ui/done.svg" alt="">
+							<span class="done__text">Закончилось</span>
+						</div>
+						<div class="post__item__info">
+							<span class="posting__date">Сегодня в 13:56</span>
+							<h3 class="post__title">12-14 ночей на Кубе с 15 сентября</h3>
+							<div class="tour__info">
+								<div class="post__price">
+									<span class="price__value">
+										<div class="price__by">от</div>
+										<span class="price__count">9950</span>
+										<div class="price__currency">₽</div>
+									</span>
+									<span class="for__unit">с человека</span>
+								</div>
+								<a href="#" class="more__btn"></a>
+							</div>
+						</div>
+					</article>
+					<article class="post__item ended">
+						<div class="post__item__img">
+							<div class="post__tags">
+								<a href="#" class="post__tag">Тур</a>
+								<a href="#" class="post__tag">на Кубу</a>
+							</div>
+							<img src="img/post__mini.jpg" alt="" class="post__miniature">
+						</div>
+						<div class="done">
+							<img src="img/ui/done.svg" alt="">
+							<span class="done__text">Закончилось</span>
+						</div>
+						<div class="post__item__info">
+							<span class="posting__date">Сегодня в 13:56</span>
+							<h3 class="post__title">12-14 ночей на Кубе с 15 сентября</h3>
+							<div class="tour__info">
+								<div class="post__price">
+									<span class="price__value">
+										<div class="price__by">от</div>
+										<span class="price__count">9950</span>
+										<div class="price__currency">₽</div>
+									</span>
+									<span class="for__unit">с человека</span>
+								</div>
+								<a href="#" class="more__btn"></a>
+							</div>
+						</div>
+					</article>
+					<article class="post__item">
+						<div class="post__item__img">
+							<div class="post__tags">
+								<a href="#" class="post__tag">Тур</a>
+								<a href="#" class="post__tag">на Кубу</a>
+							</div>
+							<img src="img/post__mini.jpg" alt="" class="post__miniature">
+						</div>
+						<div class="done">
+							<img src="img/ui/done.svg" alt="">
+							<span class="done__text">Закончилось</span>
+						</div>
+						<div class="post__item__info">
+							<span class="posting__date">Сегодня в 13:56</span>
+							<h3 class="post__title">12-14 ночей на Кубе с 15 сентября</h3>
+							<div class="tour__info">
+								<div class="post__price">
+									<span class="price__value">
+										<div class="price__by">от</div>
+										<span class="price__count">9950</span>
+										<div class="price__currency">₽</div>
+									</span>
+									<span class="for__unit">с человека</span>
+								</div>
+								<a href="#" class="more__btn"></a>
+							</div>
+						</div>
+					</article>
+					<article class="post__item ended">
+						<div class="post__item__img">
+							<div class="post__tags">
+								<a href="#" class="post__tag">Тур</a>
+								<a href="#" class="post__tag">на Кубу</a>
+							</div>
+							<img src="img/post__mini.jpg" alt="" class="post__miniature">
+						</div>
+						<div class="done">
+							<img src="img/ui/done.svg" alt="">
+							<span class="done__text">Закончилось</span>
+						</div>
+						<div class="post__item__info">
+							<span class="posting__date">Сегодня в 13:56</span>
+							<h3 class="post__title">12-14 ночей на Кубе с 15 сентября</h3>
+							<div class="tour__info">
+								<div class="post__price">
+									<span class="price__value">
+										<div class="price__by">от</div>
+										<span class="price__count">9950</span>
+										<div class="price__currency">₽</div>
+									</span>
+									<span class="for__unit">с человека</span>
+								</div>
+								<a href="#" class="more__btn"></a>
+							</div>
+						</div>
+					</article>
+					<article class="post__item ended">
+						<div class="post__item__img">
+							<div class="post__tags">
+								<a href="#" class="post__tag">Тур</a>
+								<a href="#" class="post__tag">на Кубу</a>
+							</div>
+							<img src="img/post__mini.jpg" alt="" class="post__miniature">
+						</div>
+						<div class="done">
+							<img src="img/ui/done.svg" alt="">
+							<span class="done__text">Закончилось</span>
+						</div>
+						<div class="post__item__info">
+							<span class="posting__date">Сегодня в 13:56</span>
+							<h3 class="post__title">12-14 ночей на Кубе с 15 сентября</h3>
+							<div class="tour__info">
+								<div class="post__price">
+									<span class="price__value">
+										<div class="price__by">от</div>
+										<span class="price__count">9950</span>
+										<div class="price__currency">₽</div>
+									</span>
+									<span class="for__unit">с человека</span>
+								</div>
+								<a href="#" class="more__btn"></a>
+							</div>
+						</div>
+					</article>
+					<article class="post__item">
+						<div class="post__item__img">
+							<div class="post__tags">
+								<a href="#" class="post__tag">Тур</a>
+								<a href="#" class="post__tag">на Кубу</a>
+							</div>
+							<img src="img/post__mini.jpg" alt="" class="post__miniature">
+						</div>
+						<div class="done">
+							<img src="img/ui/done.svg" alt="">
+							<span class="done__text">Закончилось</span>
+						</div>
+						<div class="post__item__info">
+							<span class="posting__date">Сегодня в 13:56</span>
+							<h3 class="post__title">12-14 ночей на Кубе с 15 сентября</h3>
+							<div class="tour__info">
+								<div class="post__price">
+									<span class="price__value">
+										<div class="price__by">от</div>
+										<span class="price__count">9950</span>
+										<div class="price__currency">₽</div>
+									</span>
+									<span class="for__unit">с человека</span>
+								</div>
+								<a href="#" class="more__btn"></a>
+							</div>
+						</div>
+					</article>
+					<article class="post__item">
+						<div class="post__item__img">
+							<div class="post__tags">
+								<a href="#" class="post__tag">Тур</a>
+								<a href="#" class="post__tag">на Кубу</a>
+							</div>
+							<img src="img/post__mini.jpg" alt="" class="post__miniature">
+						</div>
+						<div class="done">
+							<img src="img/ui/done.svg" alt="">
+							<span class="done__text">Закончилось</span>
+						</div>
+						<div class="post__item__info">
+							<span class="posting__date">Сегодня в 13:56</span>
+							<h3 class="post__title">12-14 ночей на Кубе с 15 сентября</h3>
+							<div class="tour__info">
+								<div class="post__price">
+									<span class="price__value">
+										<div class="price__by">от</div>
+										<span class="price__count">9950</span>
+										<div class="price__currency">₽</div>
+									</span>
+									<span class="for__unit">с человека</span>
+								</div>
+								<a href="#" class="more__btn"></a>
+							</div>
+						</div>
+					</article>
+					<article class="post__item">
+						<div class="post__item__img">
+							<div class="post__tags">
+								<a href="#" class="post__tag">Тур</a>
+								<a href="#" class="post__tag">на Кубу</a>
+							</div>
+							<img src="img/post__mini.jpg" alt="" class="post__miniature">
+						</div>
+						<div class="done">
+							<img src="img/ui/done.svg" alt="">
+							<span class="done__text">Закончилось</span>
+						</div>
+						<div class="post__item__info">
+							<span class="posting__date">Сегодня в 13:56</span>
+							<h3 class="post__title">12-14 ночей на Кубе с 15 сентября</h3>
+							<div class="tour__info">
+								<div class="post__price">
+									<span class="price__value">
+										<div class="price__by">от</div>
+										<span class="price__count">9950</span>
+										<div class="price__currency">₽</div>
+									</span>
+									<span class="for__unit">с человека</span>
+								</div>
+								<a href="#" class="more__btn"></a>
+							</div>
+						</div>
+					</article>
+					<article class="post__item">
+						<div class="post__item__img">
+							<div class="post__tags">
+								<a href="#" class="post__tag">Тур</a>
+								<a href="#" class="post__tag">на Кубу</a>
+							</div>
+							<img src="img/post__mini.jpg" alt="" class="post__miniature">
+						</div>
+						<div class="done">
+							<img src="img/ui/done.svg" alt="">
+							<span class="done__text">Закончилось</span>
+						</div>
+						<div class="post__item__info">
+							<span class="posting__date">Сегодня в 13:56</span>
+							<h3 class="post__title">12-14 ночей на Кубе с 15 сентября</h3>
+							<div class="tour__info">
+								<div class="post__price">
+									<span class="price__value">
+										<div class="price__by">от</div>
+										<span class="price__count">9950</span>
+										<div class="price__currency">₽</div>
+									</span>
+									<span class="for__unit">с человека</span>
+								</div>
+								<a href="#" class="more__btn"></a>
+							</div>
+						</div>
+					</article>
+					<article class="post__item ended">
+						<div class="post__item__img">
+							<div class="post__tags">
+								<a href="#" class="post__tag">Тур</a>
+								<a href="#" class="post__tag">на Кубу</a>
+							</div>
+							<img src="img/post__mini.jpg" alt="" class="post__miniature">
+						</div>
+						<div class="done">
+							<img src="img/ui/done.svg" alt="">
+							<span class="done__text">Закончилось</span>
+						</div>
+						<div class="post__item__info">
+							<span class="posting__date">Сегодня в 13:56</span>
+							<h3 class="post__title">12-14 ночей на Кубе с 15 сентября</h3>
+							<div class="tour__info">
+								<div class="post__price">
+									<span class="price__value">
+										<div class="price__by">от</div>
+										<span class="price__count">9950</span>
+										<div class="price__currency">₽</div>
+									</span>
+									<span class="for__unit">с человека</span>
+								</div>
+								<a href="#" class="more__btn"></a>
+							</div>
+						</div>
+					</article>
+					<article class="post__item ended">
+						<div class="post__item__img">
+							<div class="post__tags">
+								<a href="#" class="post__tag">Тур</a>
+								<a href="#" class="post__tag">на Кубу</a>
+							</div>
+							<img src="img/post__mini.jpg" alt="" class="post__miniature">
+						</div>
+						<div class="done">
+							<img src="img/ui/done.svg" alt="">
+							<span class="done__text">Закончилось</span>
+						</div>
+						<div class="post__item__info">
+							<span class="posting__date">Сегодня в 13:56</span>
+							<h3 class="post__title">12-14 ночей на Кубе с 15 сентября</h3>
+							<div class="tour__info">
+								<div class="post__price">
+									<span class="price__value">
+										<div class="price__by">от</div>
+										<span class="price__count">9950</span>
+										<div class="price__currency">₽</div>
+									</span>
+									<span class="for__unit">с человека</span>
+								</div>
+								<a href="#" class="more__btn"></a>
+							</div>
+						</div>
+					</article>
+					<article class="post__item">
+						<div class="post__item__img">
+							<div class="post__tags">
+								<a href="#" class="post__tag">Тур</a>
+								<a href="#" class="post__tag">на Кубу</a>
+							</div>
+							<img src="img/post__mini.jpg" alt="" class="post__miniature">
+						</div>
+						<div class="done">
+							<img src="img/ui/done.svg" alt="">
+							<span class="done__text">Закончилось</span>
+						</div>
+						<div class="post__item__info">
+							<span class="posting__date">Сегодня в 13:56</span>
+							<h3 class="post__title">12-14 ночей на Кубе с 15 сентября</h3>
+							<div class="tour__info">
+								<div class="post__price">
+									<span class="price__value">
+										<div class="price__by">от</div>
+										<span class="price__count">9950</span>
+										<div class="price__currency">₽</div>
+									</span>
+									<span class="for__unit">с человека</span>
+								</div>
+								<a href="#" class="more__btn"></a>
+							</div>
+						</div>
+					</article>
+					<article class="post__item">
+						<div class="post__item__img">
+							<div class="post__tags">
+								<a href="#" class="post__tag">Тур</a>
+								<a href="#" class="post__tag">на Кубу</a>
+							</div>
+							<img src="img/post__mini.jpg" alt="" class="post__miniature">
+						</div>
+						<div class="done">
+							<img src="img/ui/done.svg" alt="">
+							<span class="done__text">Закончилось</span>
+						</div>
+						<div class="post__item__info">
+							<span class="posting__date">Сегодня в 13:56</span>
+							<h3 class="post__title">12-14 ночей на Кубе с 15 сентября</h3>
+							<div class="tour__info">
+								<div class="post__price">
+									<span class="price__value">
+										<div class="price__by">от</div>
+										<span class="price__count">9950</span>
+										<div class="price__currency">₽</div>
+									</span>
+									<span class="for__unit">с человека</span>
+								</div>
+								<a href="#" class="more__btn"></a>
+							</div>
+						</div>
+					</article>
+					<article class="post__item">
+						<div class="post__item__img">
+							<div class="post__tags">
+								<a href="#" class="post__tag">Тур</a>
+								<a href="#" class="post__tag">на Кубу</a>
+							</div>
+							<img src="img/post__mini.jpg" alt="" class="post__miniature">
+						</div>
+						<div class="done">
+							<img src="img/ui/done.svg" alt="">
+							<span class="done__text">Закончилось</span>
+						</div>
+						<div class="post__item__info">
+							<span class="posting__date">Сегодня в 13:56</span>
+							<h3 class="post__title">12-14 ночей на Кубе с 15 сентября</h3>
+							<div class="tour__info">
+								<div class="post__price">
+									<span class="price__value">
+										<div class="price__by">от</div>
+										<span class="price__count">9950</span>
+										<div class="price__currency">₽</div>
+									</span>
+									<span class="for__unit">с человека</span>
+								</div>
+								<a href="#" class="more__btn"></a>
+							</div>
+						</div>
+					</article>
+				</section>
+				<section class="another__city">
+					<h2 class="section__title">Из соседних городов</h2>
+					<div class="content__wrapper">
+						<article class="post__item">
+							<div class="post__item__img">
+								<div class="post__tags">
+									<a href="#" class="post__tag">Тур</a>
+									<a href="#" class="post__tag">на Кубу</a>
+								</div>
+								<img src="img/post__mini.jpg" alt="" class="post__miniature">
+							</div>
+							<div class="done">
+								<img src="img/ui/done.svg" alt="">
+								<span class="done__text">Закончилось</span>
+							</div>
+							<div class="post__item__info">
+								<span class="posting__date">Сегодня в 13:56</span>
+								<h3 class="post__title">12-14 ночей на Кубе с 15 сентября</h3>
+								<div class="tour__info">
+									<div class="post__price">
+										<span class="price__value">
+											<div class="price__by">от</div>
+											<span class="price__count">9950</span>
+											<div class="price__currency">₽</div>
+										</span>
+										<span class="for__unit">с человека</span>
+									</div>
+									<a href="#" class="more__btn"></a>
+								</div>
+							</div>
+						</article>
+						<article class="post__item">
+							<div class="post__item__img">
+								<div class="post__tags">
+									<a href="#" class="post__tag">Тур</a>
+									<a href="#" class="post__tag">на Кубу</a>
+								</div>
+								<img src="img/post__mini.jpg" alt="" class="post__miniature">
+							</div>
+							<div class="done">
+								<img src="img/ui/done.svg" alt="">
+								<span class="done__text">Закончилось</span>
+							</div>
+							<div class="post__item__info">
+								<span class="posting__date">Сегодня в 13:56</span>
+								<h3 class="post__title">12-14 ночей на Кубе с 15 сентября</h3>
+								<div class="tour__info">
+									<div class="post__price">
+										<span class="price__value">
+											<div class="price__by">от</div>
+											<span class="price__count">9950</span>
+											<div class="price__currency">₽</div>
+										</span>
+										<span class="for__unit">с человека</span>
+									</div>
+									<a href="#" class="more__btn"></a>
+								</div>
+							</div>
+						</article>
+						<article class="post__item ended">
+							<div class="post__item__img">
+								<div class="post__tags">
+									<a href="#" class="post__tag">Тур</a>
+									<a href="#" class="post__tag">на Кубу</a>
+								</div>
+								<img src="img/post__mini.jpg" alt="" class="post__miniature">
+							</div>
+							<div class="done">
+								<img src="img/ui/done.svg" alt="">
+								<span class="done__text">Закончилось</span>
+							</div>
+							<div class="post__item__info">
+								<span class="posting__date">Сегодня в 13:56</span>
+								<h3 class="post__title">12-14 ночей на Кубе с 15 сентября</h3>
+								<div class="tour__info">
+									<div class="post__price">
+										<span class="price__value">
+											<div class="price__by">от</div>
+											<span class="price__count">9950</span>
+											<div class="price__currency">₽</div>
+										</span>
+										<span class="for__unit">с человека</span>
+									</div>
+									<a href="#" class="more__btn"></a>
+								</div>
+							</div>
+						</article>
+						<article class="post__item">
+							<div class="post__item__img">
+								<div class="post__tags">
+									<a href="#" class="post__tag">Тур</a>
+									<a href="#" class="post__tag">на Кубу</a>
+								</div>
+								<img src="img/post__mini.jpg" alt="" class="post__miniature">
+							</div>
+							<div class="done">
+								<img src="img/ui/done.svg" alt="">
+								<span class="done__text">Закончилось</span>
+							</div>
+							<div class="post__item__info">
+								<span class="posting__date">Сегодня в 13:56</span>
+								<h3 class="post__title">12-14 ночей на Кубе с 15 сентября</h3>
+								<div class="tour__info">
+									<div class="post__price">
+										<span class="price__value">
+											<div class="price__by">от</div>
+											<span class="price__count">9950</span>
+											<div class="price__currency">₽</div>
+										</span>
+										<span class="for__unit">с человека</span>
+									</div>
+									<a href="#" class="more__btn"></a>
+								</div>
+							</div>
+						</article>
+						<article class="post__item">
+							<div class="post__item__img">
+								<div class="post__tags">
+									<a href="#" class="post__tag">Тур</a>
+									<a href="#" class="post__tag">на Кубу</a>
+								</div>
+								<img src="img/post__mini.jpg" alt="" class="post__miniature">
+							</div>
+							<div class="done">
+								<img src="img/ui/done.svg" alt="">
+								<span class="done__text">Закончилось</span>
+							</div>
+							<div class="post__item__info">
+								<span class="posting__date">Сегодня в 13:56</span>
+								<h3 class="post__title">12-14 ночей на Кубе с 15 сентября</h3>
+								<div class="tour__info">
+									<div class="post__price">
+										<span class="price__value">
+											<div class="price__by">от</div>
+											<span class="price__count">9950</span>
+											<div class="price__currency">₽</div>
+										</span>
+										<span class="for__unit">с человека</span>
+									</div>
+									<a href="#" class="more__btn"></a>
+								</div>
+							</div>
+						</article>
+						<article class="post__item ended">
+							<div class="post__item__img">
+								<div class="post__tags">
+									<a href="#" class="post__tag">Тур</a>
+									<a href="#" class="post__tag">на Кубу</a>
+								</div>
+								<img src="img/post__mini.jpg" alt="" class="post__miniature">
+							</div>
+							<div class="done">
+								<img src="img/ui/done.svg" alt="">
+								<span class="done__text">Закончилось</span>
+							</div>
+							<div class="post__item__info">
+								<span class="posting__date">Сегодня в 13:56</span>
+								<h3 class="post__title">12-14 ночей на Кубе с 15 сентября</h3>
+								<div class="tour__info">
+									<div class="post__price">
+										<span class="price__value">
+											<div class="price__by">от</div>
+											<span class="price__count">9950</span>
+											<div class="price__currency">₽</div>
+										</span>
+										<span class="for__unit">с человека</span>
+									</div>
+									<a href="#" class="more__btn"></a>
+								</div>
+							</div>
+						</article>
+					</div>
+				</section>
+				<section class="content__widget">
+					<h2 class="section__title">Ничего не нашел?</h2>
+					<h3 class="section__subtitle">Поищи на aviasales</h3>
+					<div class="content__widget__wrapper">
+
+					</div>
+				</section>
+			</div>
+			<aside class="sidebar">
+				<div class="widget">
+					<div class="banner">Баннер</div>
+				</div>
+				<div class="widget">
+					<div class="promo">
+						<h3 class="post__title">Нашел классные билеты?</h3>
+						<a href="#" class="btn">
+							<div class="btn__overlay"></div>
+							<span class="btn__text">Отправь нам!</span>
+						</a>
+						<svg xmlns="http://www.w3.org/2000/svg" width="196" height="91" viewBox="0 0 196 91" fill="none">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M101.09 0.0170653C91.2318 -0.483098 87.2638 10.1146 85.2895 18.1883C85.1047 18.944 85.7269 19.4961 86.3136 19.6287C86.4614 19.7134 86.6269 19.7762 86.8264 19.7776C88.421 19.794 91.7254 19.4633 92.5441 17.6143C92.5603 17.5761 92.5056 17.5501 92.4894 17.5118C92.5042 17.4804 92.5248 17.4599 92.5381 17.4244C93.7381 13.624 95.6135 10.8498 97.3706 7.28856C99.7676 7.1929 102.168 7.21203 104.562 7.36372C105.98 11.0097 106.475 14.0353 107.773 17.7237C107.992 18.3454 108.541 18.5846 109.056 18.5409C109.549 18.9344 110.101 19.205 110.702 19.4428C111.491 19.753 112.399 20.1411 113.232 20.275C113.791 20.3639 114.25 20.1288 114.531 19.7721C114.849 19.589 115.115 19.2679 115.048 18.7773C113.782 9.19765 111.534 0.547293 101.09 0.0170653Z" fill="#FACD61"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M112.267 7.39481C109.914 7.39618 107.139 7.39618 104.562 7.3042C105.981 10.967 106.476 14.0065 107.773 17.7119C107.992 18.3365 108.542 18.5768 109.056 18.5328C109.549 18.9282 110.101 19.2 110.702 19.4389C111.491 19.7506 112.399 20.1405 113.232 20.275C113.791 20.3642 114.25 20.1281 114.531 19.7698C114.849 19.5858 115.115 19.2632 115.048 18.7703C114.502 14.6078 113.766 10.6252 112.267 7.39481ZM92.5381 17.4112C92.5248 17.4469 92.5042 17.4675 92.4894 17.4991C92.5056 17.5375 92.5603 17.5636 92.5441 17.602C91.7253 19.4595 88.421 19.7917 86.8264 19.7753C86.6269 19.7739 86.4614 19.7107 86.3136 19.6256C85.7269 19.4924 85.1047 18.9378 85.2895 18.1786C86.1924 14.4664 87.5165 10.2256 89.6283 6.76465C90.7988 7.07492 94.6499 7.02824 97.3706 7.22868C95.6135 10.8064 93.7381 13.5933 92.5381 17.4112Z" fill="#F0A641"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M57.1022 105.815C59.0248 106.472 60.9547 107.075 62.8803 107.568C75.9491 110.904 89.7211 111.817 103.2 111.581C113.714 111.398 124.191 110.132 134.421 107.849C135.935 107.511 137.441 107.075 138.924 106.573C139.807 94.484 138.17 87.2368 138.032 74.8983C137.927 65.4043 139.051 49.7852 136.857 40.4581C135.243 33.6016 132.475 27.2142 126.36 22.9634C119.121 17.93 110.07 17.0246 101.327 16.9183C92.0857 16.8065 82.0846 18.068 73.8908 22.3271C65.983 26.44 60.9679 33.9742 57.9468 41.772C54.3802 50.9666 55.623 63.3023 55.8375 72.9537C56.0971 84.7291 55.4597 94.4592 57.1022 105.815Z" fill="#FACD61"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M57.1022 105.816C59.0249 106.472 60.9549 107.076 62.8804 107.568C75.9496 110.904 89.7219 111.817 103.201 111.581C113.716 111.398 124.193 110.132 134.423 107.85C135.937 107.512 137.443 107.077 138.923 106.575C139.411 99.876 139.133 94.6514 138.759 89.239C136.385 92.9553 133.352 96.1928 128.96 98.0848C122.054 101.059 114.489 102.814 106.87 102.809C94.476 102.8 82.7533 100.384 76.8759 88.4151C71.5062 77.4841 67.4201 64.9178 65.4406 53.1698C64.0781 45.0968 64.275 36.0274 66.6907 27.735C62.7623 31.7204 59.9206 36.6871 57.9469 41.7793C54.3802 50.9729 55.623 63.3073 55.8375 72.9577C56.0971 84.7319 55.4597 94.4609 57.1022 105.816Z" fill="#F0A641"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M75.456 21.9032C74.7743 26.5721 74.1144 31.299 75.1538 35.9375C76.9552 43.9757 82.3389 45.9128 90.4495 46.9711C98.4565 48.0155 109.322 49.4242 116.337 44.8753C125.293 39.0653 122.709 29.3743 123.574 20.62C123.123 20.4034 122.666 20.1992 122.204 20.0074C122.311 28.1546 121.34 41.4177 105.824 41.9117C99.0521 42.1269 89.4014 40.859 85.4103 35.1856C82.098 30.4808 81.9345 24.417 83.3097 18.9409C80.5813 19.6887 77.942 20.6669 75.456 21.9032Z" fill="#F0A641"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M71.065 74.4109C66.7535 74.4109 63.2596 71.079 63.2596 66.9704C63.2596 62.8605 66.7535 59.5287 71.065 59.5287C75.3765 59.5287 78.8703 62.8605 78.8703 66.9704C78.8703 71.079 75.3765 74.4109 71.065 74.4109Z" fill="#FFFFFE"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M71.7731 73.0579C68.6395 73.0579 66.0979 70.6349 66.0979 67.6476C66.0979 64.6588 68.6395 62.2345 71.7731 62.2345C74.9081 62.2345 77.4511 64.6588 77.4511 67.6476C77.4511 70.6349 74.9081 73.0579 71.7731 73.0579Z" fill="#7F1F38"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M70.6986 74.8299C66.3467 74.8299 62.8202 71.4668 62.8202 67.3197C62.8202 63.1712 66.3467 59.8081 70.6986 59.8081C75.0505 59.8081 78.577 63.1712 78.577 67.3197C78.577 71.4668 75.0505 74.8299 70.6986 74.8299ZM70.7101 58.1758C65.4196 58.1758 61.1309 62.2627 61.1309 67.3087C61.1309 72.3506 65.4196 76.4403 70.7101 76.4403C76.0021 76.4403 80.2894 72.3506 80.2894 67.3087C80.2894 62.2627 76.0021 58.1758 70.7101 58.1758Z" fill="#7F1F38"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M75.2641 66.1011C75.1605 65.6377 74.8846 65.2494 74.527 64.9241C73.7446 64.2119 72.5375 64.0478 71.5844 64.57C70.5378 65.1442 69.9248 66.6821 70.7144 67.68C70.7247 67.6896 70.732 67.7019 70.7436 67.7142C71.1407 68.4674 71.9274 68.9992 72.9054 68.9992C74.5723 68.9992 75.5823 67.5446 75.2641 66.1011Z" fill="#FFFFFE"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M68.5809 68.9991C67.1623 68.9991 67.1623 71.0285 68.5809 71.0285C70.0006 71.0285 70.0006 68.9991 68.5809 68.9991Z" fill="#FFFFFE"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M122.864 74.4109C118.554 74.4109 115.058 71.079 115.058 66.9704C115.058 62.8605 118.554 59.5287 122.864 59.5287C127.175 59.5287 130.669 62.8605 130.669 66.9704C130.669 71.079 127.175 74.4109 122.864 74.4109Z" fill="#FFFFFE"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M122.865 73.0579C119.728 73.0579 117.188 70.6349 117.188 67.6476C117.188 64.6588 119.728 62.2345 122.865 62.2345C125.999 62.2345 128.541 64.6588 128.541 67.6476C128.541 70.6349 125.999 73.0579 122.865 73.0579Z" fill="#7F1F38"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M122.499 74.8299C118.148 74.8299 114.62 71.4668 114.62 67.3197C114.62 63.1712 118.148 59.8081 122.499 59.8081C126.851 59.8081 130.378 63.1712 130.378 67.3197C130.378 71.4668 126.851 74.8299 122.499 74.8299ZM122.51 58.1758C117.222 58.1758 112.93 62.2627 112.93 67.3087C112.93 72.3506 117.222 76.4403 122.51 76.4403C127.802 76.4403 132.088 72.3506 132.088 67.3087C132.088 62.2627 127.802 58.1758 122.51 58.1758Z" fill="#7F1F38"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M127.063 66.1011C126.962 65.6377 126.684 65.2494 126.327 64.9241C125.543 64.2119 124.335 64.0478 123.386 64.57C122.337 65.1442 121.723 66.6821 122.514 67.68C122.524 67.6896 122.532 67.7019 122.543 67.7142C122.94 68.4674 123.723 68.9992 124.703 68.9992C126.372 68.9992 127.382 67.5446 127.063 66.1011Z" fill="#FFFFFE"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M120.382 68.9991C118.961 68.9991 118.961 71.0285 120.382 71.0285C121.799 71.0285 121.799 68.9991 120.382 68.9991Z" fill="#FFFFFE"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M110.42 54.9588C109.952 55.0276 109.477 55.0785 109.006 55.1143C108.409 52.9126 108.086 50.6737 107.903 48.4004C107.903 48.3977 107.9 48.3949 107.9 48.3935C108.916 48.2435 109.917 48.0413 110.896 47.7867C110.834 50.1824 110.601 52.5686 110.42 54.9588ZM88.1507 54.601C87.7788 54.5983 87.4084 54.5735 87.0394 54.5501C86.9508 52.1021 87.1033 49.6375 87.3779 47.2046C88.142 47.3794 88.9105 47.5307 89.6819 47.6614C89.0354 49.9485 88.6287 52.2796 88.1507 54.601ZM124.146 21.4472C124.087 19.9142 121.576 19.9046 121.626 21.4472C121.85 28.6083 122.493 37.1744 116.461 42.4805C111.929 46.4684 104.391 46.5179 98.632 46.251C92.5523 45.9689 84.8673 45.1171 80.1736 41.1664C74.8987 36.7285 76.4328 28.2065 77.5136 22.5026C77.794 21.0164 75.4493 20.3642 75.0992 21.871C73.5651 28.5051 72.7908 35.9703 77.3276 41.7141C79.2307 44.1249 81.9866 45.6139 85.0402 46.5771C84.6509 49.5687 84.4257 52.5906 84.6349 55.6001C84.6683 56.0776 84.9792 56.6253 85.5341 56.7147C86.7385 56.9115 87.9457 56.961 89.1689 56.9624C89.6962 56.9651 90.257 56.606 90.3688 56.0982C90.9543 53.4506 91.3756 50.7742 92.131 48.1624C92.1426 48.1156 92.147 48.0702 92.1557 48.0261C93.9222 48.2463 95.6553 48.4004 97.2635 48.5477C99.8552 48.7857 102.704 48.8765 105.54 48.655C105.745 51.3549 106.102 54.0382 106.895 56.6459C107.04 57.1358 107.524 57.5087 108.073 57.4991C109.363 57.4715 110.645 57.3174 111.913 57.1C112.474 57.0037 112.783 56.4574 112.821 55.9702C113.04 53.0144 113.392 50.0737 113.414 47.1083C113.414 47.0615 113.392 47.0285 113.387 46.9831C114.786 46.4381 116.104 45.7528 117.289 44.8845C124.831 39.3389 124.473 29.6679 124.146 21.4472Z" fill="#D0692D"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M114.147 16.1021C111.914 15.5579 109.614 15.8874 107.35 15.5753C105.828 15.3669 105.179 17.1669 106.703 17.5751C108.911 18.1643 111.248 17.7112 113.461 18.2205C115.07 18.5925 115.743 16.4916 114.147 16.1021Z" fill="#D0692D"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M91.869 15.5586C89.2871 15.568 86.794 15.8692 84.4471 16.9268C83.0688 17.5493 84.2709 19.4101 85.6406 18.8305C87.5935 18.0031 89.7513 17.8813 91.869 17.8652C93.4579 17.8532 93.4608 15.5519 91.869 15.5586Z" fill="#D0692D"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M169.396 135.953C171.403 131.144 172.746 126.477 173.135 121.568C173.277 121.31 173.284 121.048 173.184 120.803C173.341 118.178 173.225 115.478 172.784 112.646C172.333 109.731 171.419 106.694 170.047 103.847C172.603 102.499 175.807 101.013 178.304 99.0753C178.017 99.9377 177.687 100.792 177.362 101.645C176.949 102.72 178.342 103.508 179.272 103.034C180.075 102.624 180.926 102.326 181.785 102.054C181.347 103.788 180.965 105.528 180.776 107.314C180.692 108.097 181.701 108.814 182.471 108.539C183.905 108.03 185.368 107.626 186.866 107.342C186.234 109.393 185.527 111.409 184.498 113.329C184.013 114.239 184.811 115.463 185.957 115.126C187.001 114.822 188.038 114.495 189.096 114.243C188.311 115.614 187.515 116.98 186.657 118.315C186.014 119.315 187.066 120.21 188.091 120.079C189.041 119.957 189.977 119.772 190.919 119.597C185.307 126.333 177.72 132.57 169.396 135.953ZM164.125 131.219C166.005 129.501 167.816 127.705 169.541 125.818C168.893 129.122 167.844 132.4 166.516 135.565C165.457 134.275 164.703 132.735 164.125 131.219ZM93.3069 153.525C78.7438 153.195 63.8039 150.587 50.8857 144.033C45.2048 141.151 40.1587 137.133 35.1575 133.315C29.8026 129.229 24.2464 122.79 20.9234 118.201C20.8436 118.091 20.7987 117.974 20.7205 117.878C20.9639 116.175 21.3726 114.433 22.0117 112.611C24.642 105.139 30.1881 99.2799 35.6284 93.54C43.6875 99.5779 53.6175 104.337 63.4184 106.845C76.4019 110.164 90.0838 111.073 103.475 110.838C113.92 110.655 124.329 109.396 134.492 107.125C143.319 105.153 151.591 100.131 158.733 95.0849C168.069 101.801 171.041 111.5 170.17 121.427C151.236 143.174 122.869 154.195 93.3069 153.525ZM22.3477 134.831C21.4492 130.722 20.6203 126.951 20.4609 123.124C22.3753 125.267 24.6665 127.548 27.1591 129.834C25.8244 131.782 24.2491 133.436 22.3477 134.831ZM19.2537 111.89C16.1785 119.389 17.4407 126.277 19.1349 133.6C12.7062 126.668 8.50783 118.714 4.01384 110.522C5.11089 110.613 6.20504 110.655 7.32963 110.592C8.24263 110.54 8.76145 109.837 8.60493 109.009C8.39045 107.872 8.15713 106.736 7.9325 105.601C8.94694 106.013 9.97443 106.383 11.0628 106.683C11.6019 106.831 12.2975 106.599 12.5569 106.106C13.3438 104.611 12.7279 102.272 12.1439 100.215C13.1047 100.604 14.067 100.957 15.1438 101.158C16.1727 101.351 16.9784 100.586 16.7756 99.6122C16.4959 98.2693 16.1437 96.9455 15.8089 95.6177C16.7132 96.0063 17.6118 96.4072 18.5132 96.8082C19.5479 97.2655 20.8058 96.5226 20.4855 95.3719C20.4102 95.1027 20.3464 94.8363 20.2783 94.5713C21.8855 96.7203 23.739 98.7567 25.7461 100.322C23.0941 103.932 20.9058 107.857 19.2537 111.89ZM194.769 117.296C194.577 117.017 194.264 116.814 193.782 116.825C192.585 116.852 191.417 117.054 190.249 117.273C191.036 115.949 191.782 114.606 192.543 113.264C192.978 112.501 192.449 111.405 191.447 111.455C190.233 111.514 189.068 111.744 187.914 112.035C188.656 110.249 189.239 108.412 189.757 106.529C189.825 106.279 189.81 106.055 189.744 105.859C189.828 105.189 189.449 104.512 188.53 104.606C186.892 104.774 185.298 105.064 183.73 105.485C184.048 103.796 184.52 102.136 184.965 100.468C185.204 99.5834 184.314 98.5728 183.314 98.9037C182.478 99.1797 181.646 99.431 180.823 99.7084C181.269 98.3585 181.593 96.9936 181.649 95.5243C181.671 94.9874 181.382 94.6496 181 94.4821C180.54 94.1484 179.829 94.0783 179.275 94.4917C177.555 95.7783 176.059 97.2161 174.213 98.3819C172.447 99.4955 170.57 100.443 168.8 101.553C166.548 97.7873 163.418 94.5493 159.399 92.6873C159.157 92.5747 158.934 92.5527 158.723 92.5651C158.299 92.3619 157.82 92.4415 157.314 92.8384C141.676 105.105 121.094 107.531 103.475 108.016C91.5896 108.343 79.6597 107.34 68.0371 104.959C57.2593 102.751 46.6047 97.9191 37.0878 90.7237C36.4226 90.2238 35.8603 90.1236 35.3314 90.471C35.2299 90.5191 35.1256 90.5561 35.0285 90.6344C32.233 92.8466 29.707 95.3897 27.452 98.1457C26.2115 96.8824 24.9536 95.6506 23.7986 94.3022C22.1958 92.4305 20.861 90.3776 19.3133 88.4717C18.509 87.483 17.038 87.9979 16.9743 88.999C16.9192 89.1335 16.8743 89.275 16.8699 89.4466C16.838 90.8363 17.009 92.1559 17.2757 93.4714C16.2946 93.0498 15.3062 92.6434 14.2961 92.2781C13.2686 91.9074 12.473 92.9812 12.6527 93.8339C12.9556 95.273 13.344 96.6929 13.7049 98.1155C12.6629 97.7379 11.6484 97.2888 10.5992 96.8947C9.55868 96.5061 8.82973 97.6102 8.9732 98.4368C9.12971 99.35 10.0717 102.18 10.2978 103.799C9.11377 103.387 7.97469 102.897 6.83417 102.363C5.75886 101.859 4.66036 102.673 4.88788 103.78C5.18497 105.23 5.46757 106.681 5.75161 108.134C4.5937 108.13 3.44882 108.053 2.27641 107.969C1.67644 107.927 1.28805 108.318 1.13299 108.791C0.85909 109.053 0.718517 109.415 0.89532 109.836C5.16758 120.02 11.0586 130.671 19.7625 138.09C20.4147 138.645 21.2074 138.491 21.6943 138.052C21.7813 138.035 21.8697 138.031 21.9595 137.995C25.0029 136.773 27.3738 134.268 29.2027 131.665C34.1923 136.062 39.75 140.345 44.6208 143.555C57.5477 152.073 73.5614 154.88 88.9636 155.987C115.525 157.897 142.419 149.857 162.011 133.089C162.725 135.213 164.105 137.303 165.837 138.712C166.293 139.41 167.318 139.741 167.916 139.121C178.684 136.386 188.53 127.021 194.977 118.846C195.445 118.25 195.235 117.657 194.769 117.296Z" fill="#7F1F38"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M88.838 68.629C89.1606 66.88 90.552 66.9176 92.0327 67.4724C92.0111 67.5153 91.9765 67.5435 91.9593 67.593C91.4623 68.9748 90.9985 70.4022 90.6932 71.8456C89.6187 71.0267 88.6046 69.8915 88.838 68.629ZM93.8504 68.3422C94.5634 68.7255 95.2245 69.1464 96.2126 69.5833C96.1262 71.1192 96.0095 72.6685 96.034 74.2044C94.8644 73.9752 93.7265 73.5772 92.6664 73.0478C93.0438 71.4757 93.4514 69.9103 93.8504 68.3422ZM98.4237 69.3889C99.1871 69.1691 99.926 68.7644 100.704 68.2203C100.74 68.1961 100.785 68.168 100.821 68.1452C101.202 69.9358 101.597 71.7652 102.434 73.423C102.081 73.604 101.727 73.7608 101.384 73.8841C100.361 74.2473 99.3139 74.3987 98.2682 74.4108C98.4209 72.7489 98.3993 71.0575 98.4237 69.3889ZM105.823 68.8421C105.934 70.1475 105.212 71.3135 104.197 72.2235C103.606 70.5764 103.134 68.9199 102.715 67.2191C102.712 67.2164 102.71 67.2138 102.709 67.2124C104.146 66.7353 105.657 66.8103 105.823 68.8421Z" fill="#FFFFFE"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M88.5206 68.3535C88.8383 66.5977 90.2087 66.6354 91.667 67.1924C91.6457 67.2354 91.6117 67.2637 91.5946 67.3135C91.1052 68.7007 90.6484 70.1336 90.3477 71.5827C89.2894 70.7606 88.2908 69.621 88.5206 68.3535ZM93.4571 68.0656C94.1593 68.4504 94.8104 68.8729 95.7836 69.3115C95.6984 70.8534 95.5835 72.4088 95.6077 73.9507C94.4558 73.7206 93.3351 73.321 92.291 72.7896C92.6627 71.2113 93.0641 69.6398 93.4571 68.0656ZM97.9611 69.1164C98.7129 68.8957 99.4407 68.4894 100.207 67.9431C100.242 67.9189 100.286 67.8907 100.322 67.8678C100.698 69.6653 101.086 71.5019 101.91 73.1663C101.563 73.3479 101.214 73.5053 100.876 73.6291C99.8691 73.9937 98.8378 74.1458 97.8079 74.1579C97.9582 72.4895 97.937 70.7915 97.9611 69.1164ZM105.248 68.5675C105.358 69.878 104.647 71.0485 103.647 71.9621C103.065 70.3085 102.6 68.6455 102.187 66.9381C102.184 66.9354 102.183 66.9327 102.181 66.9314C103.597 66.4524 105.085 66.5277 105.248 68.5675ZM97.419 75.7617C101.751 75.8586 108.338 72.6483 107.101 67.7292C106.552 65.5442 104.824 65.0827 103.198 65.1109C100.116 65.1647 98.6404 68.402 95.7295 67.2327C95.633 67.1951 91.9986 64.6077 89.8806 64.9764C87.6676 65.3612 86.537 67.0202 86.6888 69.1729C86.9995 73.5282 93.4597 75.6715 97.419 75.7617Z" fill="#7F1F38"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M83.3923 82.5858C84.7691 79.4819 82.6741 78.7693 80.8702 79.8931C80.7645 78.9634 80.336 78.1328 79.3385 77.5533C78.1049 76.8394 76.9337 77.4569 75.9101 78.5087C75.6032 78.0256 74.7968 76.1214 73.0493 76.4865C70.0466 77.1108 68.8348 82.3211 67.7837 84.0584C67.6244 84.2484 67.5101 84.4805 67.5173 84.7709C67.6071 89.4003 69.1461 96.5379 73.6762 99.2102C74.8402 99.8983 76.0925 98.9198 76.1417 97.8747C78.5856 92.6916 81.1076 87.7296 83.3923 82.5858Z" fill="#F0A641"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M135.818 93.4661C135.812 93.4604 135.809 93.452 135.802 93.4449C131.592 89.3683 127.667 84.1568 124.631 79.0102C123.997 77.9359 122.308 76.4489 120.135 77.4454C119.557 77.7097 119.148 78.3416 118.934 78.5833C117.924 77.6122 117.137 77.1599 116.115 77.2588C114.943 77.3705 114.374 78.2257 114.101 79.1445C113.92 79.0653 113.741 78.9819 113.541 78.9282C111.735 78.4561 110.436 80.5975 110.893 82.257C112.929 89.6115 118.216 97.0451 123.583 102.05C124.163 102.593 128.879 100.698 130.68 99.4933C132.609 98.2056 134.69 96.802 136.112 95.0012C136.56 94.4315 136.309 93.8251 135.818 93.4661Z" fill="#F0A641"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M138.411 81.1122C138.558 84.0811 138.764 86.8089 138.945 89.4908C141.461 92.4471 144.073 95.2976 144.073 98.846C144.073 102.022 138.936 99.1274 134.674 94.9367C127.633 88.8248 124.33 82.2351 122.861 79.2913C122.528 78.6198 121.033 77.8159 120.587 79.3415C120.225 80.5702 120.309 81.076 120.391 82.6726C119.587 81.3435 118.899 79.6953 117.634 79.6396C115.482 79.5504 115.511 80.7109 115.537 83.2075C115.175 82.7993 114.265 81.6848 113.84 81.3072C112.61 80.2094 111.297 81.8882 111.54 82.5625C114.736 91.3785 120.734 99.1274 127.127 103.88C133.917 109.661 145.43 114.989 151.56 106.557C157.704 98.1062 146.975 85.4143 138.411 81.1122Z" fill="#FACD61"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M143.48 84.1712C141.717 82.698 139.895 81.4854 138.154 80.6068C138.3 83.5545 138.503 86.2652 138.682 88.9288C141.074 91.7545 143.549 94.4832 143.74 97.8217C143.749 97.8439 143.759 97.8619 143.766 97.8827C144.648 100.519 143.739 104.54 139.878 104.051C134.541 103.376 129.434 98.4814 125.989 94.784C122.053 90.5599 117.634 85.0096 117.042 79.1461C115.467 79.2805 115.474 80.428 115.499 82.6772C115.14 82.2712 114.239 81.1625 113.818 80.787C112.6 79.6949 111.299 81.3649 111.539 82.0356C114.705 90.8052 120.646 98.5133 126.978 103.24C133.703 108.992 145.106 114.291 151.178 105.904C151.901 104.901 152.383 103.835 152.666 102.732C147.543 97.8619 145.023 90.4255 143.48 84.1712Z" fill="#F0A641"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M139.999 81.3329C139.694 79.871 137.5 80.4937 137.792 81.9477C138.252 84.2515 138.164 86.5274 138.283 88.8551C138.361 90.341 140.489 90.341 140.565 88.8551C140.691 86.3521 140.507 83.7868 139.999 81.3329Z" fill="#D0692D"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M80.799 81.3072C80.3745 81.6848 79.4641 82.7993 79.1022 83.2075C79.1285 80.7109 79.1577 79.5504 77.0057 79.6396C75.7437 79.6953 75.0507 81.3435 74.2483 82.6726C74.3285 81.076 74.4161 80.5702 74.0542 79.3415C73.6034 77.8159 72.1109 78.6198 71.7768 79.2913C70.3091 82.2351 67.006 88.8248 59.9665 94.9367C55.702 99.1274 50.5635 102.022 50.5635 98.846C50.5635 95.0022 53.6317 91.9762 56.3206 88.7468C56.2914 86.2252 56.2914 83.684 56.2885 81.0829C47.7127 85.3572 36.9207 98.0867 43.0776 106.557C49.2081 114.989 60.7208 109.661 67.5123 103.88C73.9054 99.1274 79.9032 91.3785 83.0983 82.5625C83.342 81.8882 82.0289 80.2094 80.799 81.3072Z" fill="#FACD61"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M80.799 81.4331C80.3745 81.8091 79.4641 82.9189 79.1022 83.3253C79.1241 81.2028 79.1373 80.0597 77.8082 79.8225C76.0793 86.4287 70.3251 92.6755 65.7061 96.8498C62.4015 99.8379 57.622 104.226 52.5564 104.478C42.8894 104.96 47.7929 88.4111 55.0469 90.3366C55.4773 89.8344 55.896 89.3253 56.3206 88.8175C56.2914 86.3149 56.2914 83.7929 56.2885 81.2098C47.7127 85.4659 36.9207 98.1413 43.0776 106.576C49.2081 114.972 60.7208 109.667 67.5123 103.91C73.9054 99.1776 79.9032 91.4616 83.0983 82.683C83.342 82.0116 82.0289 80.34 80.799 81.4331Z" fill="#F0A641"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M57.1909 81.2956C56.927 80.0481 54.7169 80.3569 54.7457 81.5909C54.7988 83.8679 54.6001 86.1922 55.0309 88.4448C55.3161 89.9307 57.8431 89.2995 57.561 87.8217C57.1469 85.6626 57.6429 83.452 57.1909 81.2956Z" fill="#D0692D"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M72.688 80.9696C72.1797 80.6875 71.3166 80.8092 71.0617 81.3776C70.8097 81.9335 70.5447 82.488 70.2232 83.0148C69.3978 84.3686 71.4875 85.4845 72.3955 84.2248C72.8285 83.6233 73.0529 82.9554 73.2325 82.2515C73.36 81.7551 73.1558 81.2324 72.688 80.9696ZM115.964 19.9159C112.121 18.7847 107.294 18.6852 103.3 18.9686C101.465 19.0986 101.814 21.614 103.419 21.8795C105.216 22.1768 107.046 22.2556 108.859 22.4132C110.969 22.5957 113.097 23.0286 115.211 22.9871C116.947 22.9525 117.909 20.487 115.964 19.9159ZM133.035 53.0577C133.035 53.3397 133.048 53.6094 133.081 53.8901C133.27 55.4568 135.439 55.4568 135.63 53.8901C135.665 53.6094 135.675 53.3397 135.675 53.0577C135.675 51.4301 133.035 51.4301 133.035 53.0577ZM128.544 27.4383C127.75 26.4828 126.056 27.513 126.436 28.611C127.429 31.4803 128.815 34.203 129.921 37.035C131.238 40.3994 131.552 43.8509 132.18 47.3535C132.518 49.2577 135.229 48.5511 135.426 46.9346C136.206 40.4022 132.732 32.4773 128.544 27.4383ZM50.0144 93.6943C49.6307 93.5933 49.2845 93.6915 49.0094 93.8948C48.5083 94.1077 48.2592 94.7632 48.3954 95.2388C48.5865 95.8971 49.2237 96.128 49.8696 96.0395C50.3866 95.9676 50.6878 95.5251 50.8515 95.1006C51.0759 94.5156 50.6053 93.8491 50.0144 93.6943ZM150.513 93.798C150.441 93.3942 150.184 93.0485 149.908 92.7457C149.486 92.2783 148.666 92.3336 148.233 92.7457C147.745 93.213 147.827 93.8671 148.233 94.3442C148.186 94.2875 148.196 94.2861 148.212 94.4023C148.306 95.019 149.113 95.3481 149.682 95.2001C150.351 95.0231 150.624 94.4106 150.513 93.798ZM125.649 84.7019C125.279 84.1391 124.89 83.5873 124.572 82.9941C124.185 82.2695 123.686 81.4135 122.656 81.6777C121.474 81.9833 121.484 83.2153 121.825 84.1003C122.152 84.9577 122.663 85.7542 123.283 86.447C124.407 87.6984 126.55 86.0736 125.649 84.7019ZM105.714 5.37701C104.577 4.99951 103.537 4.35788 102.454 3.86422C101.753 3.54479 101.575 2.60172 101.941 2.00296C102.294 1.42771 102.907 1.28805 103.551 1.37793C104.816 1.55355 106.218 2.22421 107.082 3.13133C107.968 4.06058 107.123 5.8444 105.714 5.37701Z" fill="#FFFFFE"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M128.843 104.873C120.99 98.3016 115.496 91.0114 112.353 81.2998C111.899 79.9059 109.794 80.476 110.127 81.9034C112.495 92.0178 119.208 100.019 127.109 106.577C128.308 107.574 130.049 105.883 128.843 104.873Z" fill="#D0692D"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M81.4776 81.348C79.698 90.9249 72.5202 98.1425 65.0923 104.21C63.8693 105.211 65.6315 106.892 66.8459 105.904C74.5861 99.6103 82.1267 91.9714 83.8182 81.9717C84.0697 80.5011 81.7581 79.8551 81.4776 81.348Z" fill="#D0692D"/>
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M69.6064 77.7098C66.2866 84.5284 61.0064 89.9151 55.7836 95.4082C54.7382 96.507 56.4232 98.145 57.4858 97.0475C62.8865 91.477 68.3416 85.8789 71.6557 78.864C72.2824 77.537 70.2589 76.3704 69.6064 77.7098Z" fill="#D0692D"/>
+						</svg>
+					</div>
+				</div>
+			</aside>
+		</div>
+	</main>
+
+	<footer class="footer" id="footer">
+		<div class="section__wrapper">
+			<div class="footer__item">
+				<svg xmlns="http://www.w3.org/2000/svg" width="162" height="173" viewBox="0 0 162 173" fill="none">
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M143.091 26.5497C129.627 8.42267 108.824 0.950342 86.7281 0.0528992C64.0144 -0.86873 27.9894 10.0763 9.70162 46.7454C4.54027 57.0972 -0.245138 70.5894 0.00974357 82.0308C0.0339573 83.1205 1.12485 83.5367 1.91371 83.2567C2.01821 83.2287 2.12526 83.1892 2.23359 83.1268C5.12394 81.4809 7.99009 79.6313 10.6957 77.6696C12.8367 79.9712 14.6756 82.5973 17.0524 84.6519C17.631 85.156 18.3319 85.0656 18.8047 84.7091C19.238 84.6442 19.6356 84.3807 19.8115 83.8524C22.7516 75.1046 38.6269 24.0904 83.7855 24.5397C130.324 25.0031 134.94 62.3164 139.932 97.9226C140.012 98.498 140.439 98.736 140.868 98.7487C141.217 99.067 141.716 99.2032 142.134 98.8989C144.907 96.8609 147.112 93.984 149.556 91.5208C152.49 94.0209 155.89 95.9062 159.26 97.7647C159.764 98.0422 160.244 97.9824 160.615 97.7494C161.293 97.8895 162.014 97.5521 162 96.67C161.61 72.052 157.476 45.9142 143.091 26.5497Z" fill="#00A7A4"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M84.6024 151.49C80.6767 151.625 76.3921 154.81 73.1905 156.704C70.9687 158.02 67.2046 160.236 64.5157 159.68C59.8202 158.709 64.1353 152.483 68.1284 148.991C68.8474 148.264 70.1288 147.658 69.1795 146.69C67.6016 145.081 65.3556 144.458 63.2229 143.968C62.7482 143.862 62.3626 143.993 62.098 144.243C61.9783 144.261 61.8587 144.286 61.7302 144.351C53.6345 148.501 48.2823 160.394 56.2978 167.235C63.3412 173.25 75.8055 165.696 83.676 161.694C83.6111 163.257 83.62 164.921 84.0476 166.339C84.3122 167.217 85.2768 167.386 85.8978 166.994C86.1765 166.951 86.4437 166.816 86.6257 166.546C89.4456 162.378 92.7057 151.212 84.6024 151.49Z" fill="#FACD61"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M88.3949 161.125C88.06 157.07 84.8605 156.163 81.4582 157.549C78.9309 158.58 76.7282 160.127 74.3548 161.447C70.4984 163.6 66.0173 166.003 61.4899 164.732C52.9176 162.324 59.8094 151.47 63.7838 154.142C64.8935 152.333 66.5984 150.43 68.2572 148.991C68.9821 148.264 70.2739 147.658 69.3169 146.69C67.7261 145.081 65.4618 144.458 63.3117 143.968C62.8331 143.862 62.4444 143.993 62.1776 144.243C62.057 144.261 61.9364 144.286 61.8068 144.351C53.645 148.501 48.2492 160.394 56.3301 167.235C63.431 173.25 75.9969 165.696 83.9317 161.694C83.8662 163.257 83.8752 164.921 84.3063 166.339C84.5731 167.217 85.5455 167.386 86.1716 166.994C86.4525 166.951 86.722 166.816 86.9054 166.546C87.4391 165.761 87.9895 164.732 88.477 163.576C88.4539 162.767 88.4628 161.963 88.3949 161.125Z" fill="#F0A641"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M51.1276 120.819C29.412 136.748 20.493 111.844 33.6771 97.7305C36.8006 97.3553 40.0864 95.5917 40.0285 93.0487C40.0169 92.4524 39.0761 92.1985 38.5291 92.4474C36.9422 93.1674 36.1314 94.7643 33.2176 94.6695C32.8096 92.2604 34.9873 89.7868 37.9654 89.6226C38.6449 89.5847 39.7196 88.1104 38.4442 87.3626C36.2138 86.0588 33.8753 88.0005 31.8534 89.5228C31.9409 89.3586 32.0387 89.1906 32.1546 89.0175C32.8689 87.9715 33.9126 87.2526 34.7916 86.3671C35.6243 85.8782 36.2665 84.9673 35.2099 84.5138C32.5909 83.3895 30.6024 85.8352 29.2987 88.5463C29.0001 87.2249 29.5999 85.7013 30.7594 84.8941C31.8354 84.1424 31.0259 82.6378 29.7144 82.8993C25.8971 83.6611 24.8817 87.5457 26.013 90.7785C9.5213 111.718 18.7054 148.269 53.5845 129.288C53.533 127.452 51.0542 122.528 51.1276 120.819Z" fill="#FACD61"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M51.1276 121.306C46.1404 125.001 41.8328 126.511 38.3103 126.492C38.0915 129.003 37.1546 130.299 33.6835 130.285C27.5921 130.268 24.1005 123.866 23.0657 118.478C22.3 114.498 22.6758 106.369 25.0078 99.2222C26.4325 94.8578 24.2318 93.9597 26.013 90.9692C9.5213 112.115 18.7054 149.027 53.5845 129.859C53.533 128.005 51.0542 123.032 51.1276 121.306Z" fill="#F0A641"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M116.49 43.7848C109.769 38.2485 98.9605 45.2856 93.7858 49.5248C93.5343 49.7296 93.4458 49.99 93.4638 50.2505C94.88 50.3769 96.3449 50.8814 97.6341 51.3782C98.3063 51.6387 98.9887 51.8903 99.6199 52.2139C102.244 51.0444 108.376 47.8812 109.905 46.9241C110.835 47.8192 112.775 49.5766 113.78 50.4009C112.246 52.6716 110.211 55.1509 108.569 57.4823C109.637 57.9425 110.55 59.026 111.184 59.8566C111.47 60.2334 111.769 60.6379 112.047 61.0615C112.196 61.0147 112.346 60.9414 112.486 60.8301C117.657 56.8046 123.306 49.4059 116.49 43.7848Z" fill="#FACD61"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M114.022 50.9459C112.469 53.2333 110.409 55.7308 108.748 58.0792C109.829 58.5428 110.753 59.6343 111.395 60.471C111.684 60.8505 111.987 61.2581 112.268 61.6847C112.419 61.6376 112.571 61.5637 112.712 61.4517C115.146 59.5668 117.681 56.9445 119.008 54.112C117.852 53.0817 116.458 52.4831 114.022 50.9459ZM110.101 47.4436C108.553 48.4077 102.349 51.5942 99.693 52.7722C99.0544 52.4462 98.3639 52.1928 97.6837 51.9304C96.3792 51.4299 94.8968 50.9217 93.4638 50.7944C93.4456 50.532 93.5352 50.2697 93.7896 50.0633C96.7115 47.6792 101.413 44.4392 106.179 42.9924C106.323 43.1644 108.622 46.077 110.101 47.4436Z" fill="#F0A641"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M109.242 153.472C105.553 154.051 94.6258 160.855 92.9478 161.834C90.8798 163.032 90.8683 161.102 93.502 156.691C94.3718 155.237 96.0344 153.056 96.8953 151.595C97.1146 151.218 97.0582 150.825 96.8645 150.523C96.8132 150.016 96.5335 149.537 95.9703 149.374C93.2993 148.607 89.9395 148.839 87.3532 149.803C87.2865 149.831 87.2442 149.875 87.1864 149.906C86.9876 149.963 86.7951 150.093 86.6207 150.317C83.384 154.528 72.6719 168.674 82.6874 171.904C91.6124 174.777 102.349 168.061 109.624 162.692C109.863 164.907 110.237 166.68 111.968 167.788C112.367 168.039 113.485 167.908 113.816 167.121C116.12 161.617 118.46 152.024 109.242 153.472Z" fill="#FACD61"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M112.146 157.87C109.478 157.461 106.115 159.57 103.9 160.87C100.592 162.808 97.3417 164.879 93.8482 166.475C91.8863 167.368 86.7447 168.548 85.8598 165.3C84.9313 161.883 89.4596 159.474 92.186 159.097C92.51 158.401 92.9326 157.603 93.4756 156.691C94.3438 155.237 96.0035 153.056 96.8628 151.595C97.0818 151.218 97.0254 150.825 96.8321 150.523C96.7808 150.016 96.5017 149.537 95.9395 149.374C93.2732 148.607 89.9193 148.839 87.3376 149.803C87.271 149.831 87.2287 149.875 87.1711 149.906C86.9726 149.963 86.7805 150.093 86.6063 150.317C83.3754 154.528 72.6822 168.674 82.68 171.904C91.5892 174.777 102.307 168.061 109.569 162.692C109.807 164.907 110.181 166.68 111.909 167.788C112.307 168.039 113.424 167.908 113.754 167.121C114.219 166.009 114.302 158.2 112.146 157.87Z" fill="#F0A641"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M118.688 114.974C115.778 108.739 111.442 103.578 110.946 96.9019C110.432 87.5703 123.944 74.5327 110.711 57.6418C102.59 47.2735 86.384 48.5922 75.4093 53.8342C45.3064 68.2083 40.1809 110.006 54.0751 137.041C57.6711 145.077 62.8605 151.71 72.2187 154.556C84.8967 158.409 101.473 156.242 111.461 147.652C116.199 143.579 119.859 137.488 121.562 131.516C123.167 125.892 121.05 120.033 118.688 114.974Z" fill="#FACD61"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M87.5487 50.4688C85.7597 50.7051 83.991 51.0756 82.2653 51.5432C76.0779 57.7726 69.6057 67.3952 78.5341 73.0471C84.9874 77.1328 93.6728 79.0134 100.681 75.1538C106.621 71.8858 109.723 67.7797 112.777 61.9272C112.652 61.7036 112.536 61.4826 112.403 61.2578C106.848 71.2394 95.8036 74.593 86.8397 70.2825C76.5286 65.3268 81.0423 54.9377 87.5487 50.4688Z" fill="#F0A641"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M119.545 116.825C120.983 127.025 115.4 134.167 108.375 138.291C95.2318 146.005 74.5511 143.612 64.7236 131.057C54.717 118.273 54.9165 98.0694 58.7069 82.9802C61.024 73.761 65.3975 61.2156 75.5985 53.5845C75.5358 53.6137 75.4706 53.6405 75.4092 53.671C45.3064 68.0679 40.181 109.932 54.0751 137.01C57.671 145.059 62.8604 151.702 72.2186 154.553C84.8966 158.412 101.472 156.241 111.461 147.638C116.199 143.558 119.859 137.458 121.562 131.476C122.969 126.54 121.517 121.427 119.545 116.825Z" fill="#F0A641"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M73.3306 96.601C70.6933 96.7832 68.304 98.3857 66.6234 100.369C65.4388 101.76 64.0817 104.539 65.2424 106.172C66.2633 107.623 68.1567 106.592 69.2758 105.811C70.9954 104.61 73.24 101.615 73.9563 105.067C74.4019 107.209 75.0867 109.258 77.2482 109.612C79.494 109.979 80.8347 108.263 81.3005 106.515C82.7154 101.219 79.3694 96.1871 73.3306 96.601Z" fill="#7F1F38"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M101.973 104.831C101.663 106.16 100.919 108.289 99.0737 108.411C97.2013 108.535 96.0972 106.036 94.7184 105.162C92.2024 103.568 88.6789 107.114 86.9566 105.162C86.0751 104.164 87.0724 102.222 87.6601 101.362C88.45 100.205 89.4129 99.2001 90.5437 98.4458C90.7752 100.671 92.093 102.416 93.9348 103.328C96.7676 104.73 100.08 103.901 101.975 101.316C102.259 102.419 102.251 103.633 101.973 104.831Z" fill="#FFFFFE"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M63.9976 97.4035C63.7417 98.4808 63.117 100.213 61.5639 100.312C59.9908 100.414 59.0638 98.384 57.9059 97.6719C55.7909 96.3777 52.8329 99.2566 51.384 97.6719C50.6464 96.8606 51.4831 95.2808 51.9749 94.5834C52.6435 93.6434 53.4488 92.8259 54.3997 92.2156C54.5917 94.0233 55.7031 95.4401 57.2486 96.1804C59.6271 97.3214 62.4094 96.6473 64.0001 94.5491C64.2397 95.4426 64.2334 96.4292 63.9976 97.4035Z" fill="#FFFFFE"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M100.564 105.122C100.264 106.482 99.541 108.66 97.7479 108.784C95.9288 108.912 94.8562 106.355 93.5166 105.462C91.0723 103.831 87.6492 107.459 85.9759 105.462C85.1195 104.441 86.0884 102.454 86.6593 101.575C87.4267 100.391 88.3622 99.3629 89.4608 98.5913C89.6857 100.868 90.966 102.653 92.7554 103.586C95.5074 105.019 98.7254 104.172 100.567 101.528C100.842 102.655 100.835 103.897 100.564 105.122ZM97.2671 95.7247C92.2054 94.2362 87.1857 97.1077 84.8118 101.916C84.1494 103.255 83.6292 105.584 84.8612 106.805C87.5762 109.49 90.9635 104.642 93.4399 107.7C94.9933 109.616 95.9263 110.449 98.0407 110.258C100.124 110.069 101.078 108.381 101.708 106.42C103.018 102.345 101.654 97.0111 97.2671 95.7247Z" fill="#7F1F38"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M63.9821 97.2404C63.7274 98.3317 63.1056 100.086 61.5597 100.186C59.9939 100.289 59.0712 98.2336 57.9186 97.5123C55.8134 96.2013 52.869 99.1175 51.4268 97.5123C50.6926 96.6905 51.5255 95.0902 52.015 94.3838C52.6805 93.4316 53.4821 92.6036 54.4286 91.9853C54.6197 93.8165 55.726 95.2516 57.2643 96.0014C59.6318 97.1572 62.4013 96.4744 63.9846 94.3491C64.2231 95.2541 64.2169 96.2535 63.9821 97.2404ZM61.1816 89.4268C56.82 88.1903 52.4922 90.5801 50.4469 94.5888C49.8762 95.7036 49.4267 97.6453 50.4881 98.6583C52.8281 100.898 55.7499 96.8594 57.8839 99.4069C59.2225 101.006 60.0266 101.696 61.8509 101.54C63.6477 101.381 64.4681 99.9768 65.0125 98.3405C66.1425 94.9439 64.9638 90.5019 61.1816 89.4268Z" fill="#7F1F38"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M82.1723 124.159C72.9364 137.66 52.0632 137.229 48.9482 118.098C50.5488 115.42 51.1583 111.75 49.1193 110.205C48.639 109.844 47.8659 110.421 47.7316 111.003C47.3324 112.692 48.0979 114.323 46.2552 116.541C44.1034 115.352 43.4761 112.108 45.1578 109.677C45.5405 109.12 45.0298 107.361 43.6675 107.89C41.2787 108.816 41.3914 111.859 41.361 114.391C41.2837 114.219 41.2128 114.036 41.1494 113.837C40.7553 112.627 40.8237 111.361 40.659 110.119C40.7793 109.166 40.4524 108.095 39.4538 108.637C36.9725 109.979 37.6923 113.062 39.0394 115.776C37.8114 115.184 36.9788 113.764 37.0472 112.35C37.1093 111.041 35.4264 110.733 34.8371 111.921C33.1149 115.382 35.562 118.602 38.8011 119.739C45.2921 145.72 76.4062 152.926 90.3462 127.536C88.8686 126.428 83.4738 125.284 82.1723 124.159Z" fill="#FACD61"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M59.7701 137.085C53.5699 135.837 48.608 130.609 45.7859 124.802C43.3758 119.848 42.4959 118.046 41.4055 114.33C41.3278 114.158 41.2563 113.975 41.1926 113.775C40.796 112.562 40.8648 111.293 40.6991 110.048C40.8202 109.093 40.4912 108.018 39.4863 108.562C36.9894 109.907 37.7138 112.998 39.0693 115.718C37.8336 115.125 36.9958 113.702 37.0647 112.284C37.1272 110.972 35.4336 110.663 34.8407 111.854C33.1076 115.323 35.5701 118.552 38.8296 119.691C45.3103 145.527 76.1593 152.828 90.3462 128.094C82.399 127.377 79.4494 141.05 59.7701 137.085Z" fill="#F0A641"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M80.2696 123.225C77.0212 127.941 70.3672 130.891 64.6789 131.179C63.2188 131.252 63.1605 132.984 64.6155 133.225C69.9071 134.097 78.9084 129.828 82.0947 124.27C82.7665 123.097 81.0263 122.13 80.2696 123.225Z" fill="#F0A641"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M87.2903 85.4905C86.7513 85.3995 86.2097 85.3342 85.6656 85.2944C86.11 82.6782 87.0252 80.1043 88.1992 77.7417C89.2584 77.8762 90.3099 77.9441 91.3514 77.939C89.8252 80.3618 88.7749 83.0395 87.2903 85.4905ZM69.0275 78.7819C68.6438 78.6089 68.2827 78.4078 67.9293 78.1925C69.477 74.9818 71.4867 72.0593 73.5759 69.1907C73.9711 69.9761 74.4583 70.7025 75.0163 71.3726C72.9094 73.7365 70.8163 76.1554 69.0275 78.7819ZM110.787 61.9326C105.729 71.552 97.3768 77.671 86.389 75.1086C82.271 74.149 78.0029 72.0824 75.6978 68.3528C72.3007 62.8564 78.6114 56.2953 82.2849 52.9757C83.3643 52.0007 81.7951 50.4465 80.712 51.3793C76.7216 54.8296 71.4183 60.5745 72.6315 66.4963C72.6479 66.5834 72.6756 66.6667 72.6958 66.7538C70.0322 70.3438 67.4279 73.944 65.5583 78.0374C65.2881 78.6294 65.4245 79.1969 65.9559 79.5723C66.9709 80.2911 67.9644 80.8433 69.1372 81.2392C69.6219 81.4006 70.1319 81.1303 70.3907 80.7203C72.1745 77.9029 74.4897 75.5391 76.5714 72.96C78.0332 74.2233 79.7589 75.2188 81.5616 75.9619C83.0499 76.5743 84.5396 77.0381 86.0241 77.3635C84.7226 80.1181 83.844 83.0073 83.3706 86.045C83.2582 86.7689 83.6571 87.4095 84.4209 87.4441C85.48 87.4902 86.519 87.5902 87.5541 87.8208C88.0717 87.9361 88.5249 87.7439 88.8165 87.298C90.7947 84.2936 91.816 80.7395 93.981 77.8619C94.0024 77.8325 94.0024 77.8017 94.0201 77.7722C102.007 76.796 109.001 71.616 112.673 63.0485C113.22 61.775 111.465 60.6424 110.787 61.9326Z" fill="#D0692D"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M92.7995 154.633C89.1371 155.703 85.4525 155.814 81.7604 155.494C81.5574 155.385 81.3272 155.352 81.0883 155.428C79.0411 155.224 76.9927 154.903 74.9443 154.542C73.5172 154.295 72.9057 156.516 74.344 156.766C75.9778 157.053 77.6152 157.313 79.2527 157.515C78.3034 159.048 77.5831 160.894 77.2959 162.453C77.0273 163.902 78.9829 164.462 79.4644 163.059C79.8382 161.982 80.1872 160.918 80.6724 159.883C81.0152 159.156 81.4447 158.474 81.8272 157.768C85.6913 158.058 89.5419 157.879 93.3528 156.678C94.6326 156.275 94.0966 154.251 92.7995 154.633Z" fill="#D0692D"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M65.2632 150.422C62.8338 149.48 61.3361 147.845 59.9188 145.693C59.1502 144.527 57.477 145.532 58.0714 146.784C59.3194 149.4 61.7736 151.977 64.6639 152.619C66.1035 152.939 66.604 150.941 65.2632 150.422Z" fill="#D0692D"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M93.8688 50.6933C96.3569 50.5661 98.5898 50.7675 100.913 51.6484C102.018 52.0676 102.693 50.3989 101.705 49.8619C99.3386 48.5747 96.5206 48.4993 93.8688 48.663C92.5038 48.7478 92.4864 50.7628 93.8688 50.6933Z" fill="#D0692D"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M113.297 59.4152C112.575 57.7119 111.358 56.38 110.103 55.1244C109.176 54.1976 107.799 55.6784 108.719 56.6337C109.829 57.7882 110.92 58.9765 111.589 60.5038C112.137 61.7645 113.831 60.6656 113.297 59.4152Z" fill="#D0692D"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M91.4628 129.324C92.0901 128.118 90.2691 127.057 89.6291 128.259C83.3675 140.081 69.1591 145.406 56.7082 140.855C55.4523 140.399 54.9177 142.379 56.157 142.834C69.3749 147.69 84.89 141.974 91.4628 129.324Z" fill="#D0692D"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M41.3664 126.377C40.5797 125.207 38.7301 126.229 39.3958 127.451C40.5653 129.599 41.5138 131.948 43.4147 133.644C44.5342 134.643 46.2404 133.054 45.117 132.052C43.3621 130.488 42.6359 128.255 41.3664 126.377Z" fill="#D0692D"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M64.4233 131.804C57.4745 130.974 52.2945 125.704 50.9082 118.791C53.105 116.094 52.9977 112.099 50.1747 109.875C49.8414 109.613 49.5106 109.613 49.2455 109.763C49.0852 109.718 48.916 109.709 48.7304 109.773C46.6145 110.521 46.4049 112.867 46.1208 114.821C45.9315 116.128 47.8618 116.715 48.0878 115.379C48.2772 114.266 48.2986 112.594 49.291 111.898C51.0294 113.472 50.4146 116.109 49.0309 117.725C48.6963 118.114 48.6913 118.565 48.8642 118.924C48.8668 118.99 48.8491 119.043 48.863 119.109C50.3237 127.176 56.4935 133.005 64.4233 133.953C65.7653 134.113 65.7476 131.965 64.4233 131.804Z" fill="#D0692D"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M92.4499 163.617C92.0154 163.234 91.4764 163.03 90.8941 163.19C90.1334 163.401 89.8365 164.216 90.1449 164.898C90.2405 165.104 90.4112 165.276 90.6074 165.395C90.7272 165.462 90.8546 165.506 90.9897 165.535C90.982 165.535 90.9833 165.535 90.9744 165.533C92.0957 166.351 93.4808 164.527 92.4499 163.617ZM62.6182 160.086C62.3621 159.91 61.9186 159.812 61.7594 159.767C60.8088 159.471 60.0022 160.584 60.4903 161.415C60.6495 161.681 60.8432 161.888 61.07 162.094C61.581 162.566 62.3697 162.602 62.8769 162.094C63.4872 161.483 63.2948 160.542 62.6182 160.086ZM112.39 154.175C111.827 154.092 111.29 154.222 110.983 154.748C110.632 155.346 110.853 156.095 111.431 156.452C111.78 156.67 112.138 156.893 112.571 156.853C113.435 156.779 113.866 156.138 113.75 155.306C113.658 154.649 112.989 154.263 112.39 154.175ZM29.3908 101.174C29.3768 101.842 28.9168 102.516 28.5422 103.023C28.1319 103.584 27.4464 103.858 26.7978 103.483C26.2091 103.135 25.9823 102.331 26.3416 101.738C26.6385 101.247 27.0412 100.561 27.5725 100.213C27.7611 100.008 28.058 99.9072 28.3256 99.9021C28.8786 99.8856 29.4787 100.412 29.4201 100.997C29.4137 101.059 29.3985 101.114 29.3908 101.174ZM108.184 58.6478C107.053 57.4435 105.205 59.2773 106.349 60.4471C106.814 61.3697 108.416 61.3671 108.643 60.2279C108.769 59.592 108.626 59.1193 108.184 58.6478ZM104.842 55.9716C103.641 53.6333 100.028 53.0509 97.6997 52.6827C96.3886 52.4749 95.2864 54.3737 96.7148 55.0185C97.7724 55.4963 98.8554 55.8366 99.9538 56.2087C101.078 56.5922 101.943 57.3453 103.006 57.8092C104.219 58.338 105.495 57.2447 104.842 55.9716ZM113.713 71.55C113.415 70.175 111.485 70.5994 111.391 71.8648C110.936 77.961 107.426 83.0213 106.64 88.9583C106.398 90.778 108.987 90.7563 109.567 89.3584C111.815 83.9146 115.018 77.5571 113.713 71.55ZM116.423 118.367C116.167 116.393 115.211 113.326 113.21 112.505C112.485 112.207 111.856 112.937 111.8 113.577C111.722 114.494 112.287 115.412 112.638 116.227C112.99 117.052 113.263 117.909 113.558 118.754C114.071 120.204 116.648 120.091 116.423 118.367ZM49.3448 123.441C49.2085 122.67 48.8071 121.927 48.4707 121.227C47.882 120.004 45.8866 120.867 46.2943 122.145C46.5352 122.885 46.7632 123.69 47.199 124.342C47.961 125.486 49.5729 124.743 49.3448 123.441ZM118.384 48.7856C118.408 49.531 117.742 50.1529 117.017 50.1529C116.254 50.1529 115.675 49.531 115.651 48.7856C115.648 48.7499 115.648 48.7257 115.647 48.7027C115.627 48.6212 115.604 48.5435 115.572 48.4657C115.629 48.5677 115.618 48.5396 115.536 48.3829C115.484 48.2797 115.43 48.179 115.373 48.0783C115.025 47.4552 115.219 46.6537 115.843 46.2879C116.516 45.8929 117.205 46.1898 117.636 46.7569C118.106 47.3749 118.357 48.0032 118.384 48.7856Z" fill="#FFFFFE"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M30.8065 96.5043C30.2688 97.687 28.2248 97.2673 28.6267 95.9594C28.9588 94.8709 28.9299 94.0257 28.2274 93.0576C27.434 91.9691 29.3437 90.9902 30.145 92.0442C31.1255 93.3318 31.4813 95.0283 30.8065 96.5043Z" fill="#F0A641"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M8.18374 62.42C7.78499 63.7338 7.31834 65.0276 6.92206 66.3402C6.70972 67.0308 7.00724 67.5578 7.60969 67.8875C11.2355 69.8557 15.0612 71.3419 18.908 72.8106C20.4005 73.3813 21.2844 71.0547 19.7882 70.4839C16.2958 69.1501 12.8292 67.7651 9.4627 66.1279C9.75034 65.1612 10.0429 64.2021 10.3096 63.2305C10.6923 61.833 8.61952 61.0025 8.18374 62.42Z" fill="#FFFFFE"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M17.148 61.5711C15.4406 60.3046 13.641 59.167 11.9718 57.8521C12.2486 57.2945 12.5131 56.7306 12.8034 56.1767C14.5857 57.1904 16.437 58.0888 18.3128 58.9167C17.8663 59.7817 17.4715 60.6714 17.148 61.5711ZM20.3879 55.3796C20.0767 55.8691 19.7507 56.3883 19.4346 56.9187C17.2254 55.8654 14.9953 54.8665 12.8439 53.688C12.4343 53.4674 11.8192 53.6149 11.5486 53.9829C10.6863 55.1392 10.15 56.4391 9.45872 57.6957C9.21024 58.1419 9.39967 58.7429 9.76501 59.0564C11.8451 60.8335 14.1711 62.2971 16.4652 63.778C16.4935 63.7966 16.5218 63.7966 16.5501 63.8102C16.496 64.115 16.4418 64.4187 16.4172 64.7198C16.2364 66.9653 18.6252 67.1512 20.2944 67.2875C21.7115 67.404 22.0928 65.296 20.6462 65.0767C20.0103 64.9776 19.3731 64.9094 18.7445 64.7818C18.79 64.3604 18.9401 63.9118 19.0643 63.5152C19.6585 61.5969 20.5232 59.7194 21.5405 57.9708C22.0423 58.4703 22.5294 58.9821 23.0731 59.4369C24.056 60.2585 25.4533 58.9684 24.7165 57.9287C23.9846 56.8977 23.0018 56.0488 22.0436 55.2321C21.602 54.8566 20.7348 54.8417 20.3879 55.3796Z" fill="#FFFFFE"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M27.4864 49.6222C27.1447 50.3771 26.8017 51.1345 26.4716 51.8956C25.2238 51.2291 23.9709 50.565 22.7295 49.8959C23.1659 49.3116 23.5434 48.6242 23.5729 47.9969C23.6228 47.0886 22.2304 46.3582 21.5572 47.1426C21.1797 47.5771 21.0799 47.9 20.797 48.3996C20.7356 48.5101 20.6755 48.6254 20.6192 48.7433C19.6888 48.2302 18.7622 47.706 17.8497 47.1696C18.3296 46.3312 18.8249 45.5013 19.2844 44.6543C19.9767 43.3838 18.1633 42.3281 17.293 43.5004C16.4701 44.6077 15.7675 45.7677 15.1213 46.9768C14.8052 47.5685 14.9331 48.24 15.5385 48.6144C19.0706 50.7933 22.7653 52.7107 26.437 54.6613C27.1985 55.0664 28.038 54.7116 28.3311 53.9604C28.8123 52.7181 29.4163 51.5224 29.8373 50.263C30.3301 48.7973 28.0994 48.2928 27.4864 49.6222Z" fill="#FFFFFE"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M33.9341 40.1657C32.7017 39.049 31.5929 37.8068 30.4854 36.5721C31.769 35.3072 33.3273 33.7522 35.2102 34.7081C37.4453 35.841 35.2214 38.6961 33.9341 40.1657ZM29.0694 32.0312C29.3479 32.7434 29.0095 33.7721 28.6624 34.615C28.0443 33.9869 27.395 33.3865 26.7095 32.8226C27.2889 32.0262 28.5263 30.642 29.0694 32.0312ZM31.4406 32.8692C31.5243 31.7111 31.2696 30.6107 30.2831 29.9061C28.0031 28.2719 25.8954 30.1561 24.5232 32.1482C24.025 32.8767 24.477 33.761 24.7542 34.0323C27.6261 36.822 29.9822 40.1619 33.0963 42.6942C33.7693 43.2431 34.6072 42.9617 35.0217 42.4354C35.0329 42.4254 35.0429 42.4228 35.0517 42.4128C37.1069 40.5463 40.2759 36.3033 37.6114 33.6065C35.5723 31.5453 33.4147 31.7575 31.4406 32.8692Z" fill="#FFFFFE"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M41.764 32.0866C40.7311 30.868 39.6721 29.6699 38.6404 28.4514C39.7951 27.2291 41.4707 26.3662 42.8032 27.8396C43.9903 29.1537 42.8442 30.8986 41.764 32.0866ZM37.1549 26.6588C36.1742 25.4377 35.2357 24.181 34.3929 22.849C33.718 21.7899 31.8908 22.9497 32.5359 24.0242C34.8267 27.8416 37.8398 31.0421 40.644 34.4631C41.135 35.0647 41.8472 34.9679 42.3034 34.5766C42.3506 34.5447 42.3954 34.537 42.4414 34.4963C44.7608 32.3906 46.6949 29.3048 44.5669 26.3542C42.5234 23.5233 39.2531 24.687 37.1549 26.6588Z" fill="#FFFFFE"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M41.3282 17.2075C40.3555 16.1637 38.6041 17.4513 39.5028 18.6019C42.1937 22.0534 44.9741 25.4808 47.7634 28.8537C48.708 29.9978 50.4582 28.6327 49.6297 27.4263C47.157 23.8528 44.295 20.3899 41.3282 17.2075Z" fill="#FFFFFE"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M61.8526 18.465C62.0951 20.267 60.3544 21.3099 58.7902 21.9454C58.3998 20.3906 58.0355 18.8257 57.665 17.2646C59.1831 16.9203 61.6027 16.5988 61.8526 18.465ZM57.1365 15.104C56.8418 13.9615 56.5409 12.8266 56.1853 11.7043C57.3851 11.21 58.5738 10.7006 59.7736 10.2163C61.0667 9.69427 60.5494 7.68423 59.1967 8.17729C57.6002 8.75483 56.0324 9.39163 54.4483 10.002C53.8453 10.2315 53.4512 10.7762 53.6265 11.408C54.7293 15.399 55.6146 19.4494 56.751 23.4304C56.9139 23.9852 57.3565 24.2071 57.8141 24.1983C58.0093 24.279 58.2244 24.3257 58.4867 24.2853C61.4757 23.8061 64.7495 21.124 64.0917 17.9299C63.4564 14.8492 59.8693 14.3058 57.1365 15.104Z" fill="#FFFFFE"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M71.849 16.8408C71.822 18.4916 70.3582 19.312 68.8367 19.5893C68.5752 17.9435 68.3547 16.2913 68.1432 14.6366C69.7942 14.4564 71.8874 14.9177 71.849 16.8408ZM67.8587 12.4595C67.6562 10.8891 67.4396 9.31998 67.1627 7.7598C66.9166 6.32357 64.6055 6.70308 64.8131 8.14186C65.4117 12.3381 65.7758 16.5803 66.6487 20.7319C66.7615 21.243 67.1319 21.5151 67.5537 21.588C67.7523 21.7247 67.9959 21.8205 68.2907 21.8065C71.344 21.6838 74.2666 19.6649 74.1423 16.551C74.0154 13.3693 70.8057 12.1503 67.8587 12.4595Z" fill="#FFFFFE"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M76.2024 5.80519C75.8608 4.53364 74.0252 4.80877 74.1524 6.15592C74.54 10.2197 74.9229 14.5301 75.8502 18.4947C76.1506 19.7873 77.972 19.4639 77.8813 18.1465C77.5962 14.0951 77.2486 9.72272 76.2024 5.80519Z" fill="#FFFFFE"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M90.9274 18.5545C89.7295 13.9973 89.5956 9.23277 87.2874 4.96895C86.8739 4.2128 85.6953 4.14957 85.1968 4.85136C82.4365 8.73583 82.0913 13.4485 79.8913 17.5568C79.2228 18.8099 81.1717 20.0478 81.8634 18.7821C83.7182 15.3844 84.3158 11.5076 86.0483 8.08589C87.3325 11.6049 87.5115 15.4401 88.4479 19.0426C88.8369 20.5195 91.319 20.039 90.9274 18.5545Z" fill="#FFFFFE"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M104.031 7.82372C104.281 6.51663 102.397 6.0016 101.746 7.09084C99.919 10.1508 98.121 13.4185 95.5143 15.9672C95.9009 12.7159 96.468 9.49095 96.9156 6.24464C97.105 4.87836 94.9179 4.454 94.6611 5.82657C93.8791 10.0274 93.153 14.2446 92.8415 18.5083C92.7766 19.4263 93.7926 20.3091 94.7208 19.6731C97.0262 18.1016 98.7962 16.0528 100.348 13.8416C99.9712 15.8438 99.6635 17.8548 99.5439 19.8809C99.46 21.2774 101.744 21.7471 101.862 20.3116C102.217 16.1057 103.233 11.9616 104.031 7.82372Z" fill="#FFFFFE"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M116.813 17.9705C117.752 16.693 118.72 15.4464 119.808 14.2888C121.085 14.9195 122.156 16.0029 121.176 17.461C120.156 18.9846 118.215 18.736 116.813 17.9705ZM123.287 18.6582C125.217 15.716 122.881 12.7714 119.964 11.8909C119.656 11.7969 119.388 11.8389 119.16 11.944C118.86 11.9032 118.548 11.9984 118.259 12.299C115.334 15.3982 112.62 18.9525 110.47 22.6317C109.736 23.8833 111.355 24.9135 112.292 23.8709C113.395 22.6404 114.38 21.3183 115.35 19.9815C117.951 21.6238 121.5 21.3802 123.287 18.6582Z" fill="#FFFFFE"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M124.247 24.1947C125.465 23.5948 126.704 23.0468 128 22.665C127.559 23.7939 126.977 24.8582 126.317 25.8844C125.669 25.2691 124.999 24.6679 124.247 24.1947ZM130.812 21.3913C131.014 20.4856 130.291 19.8273 129.432 19.9541C124.514 20.6861 120.661 24.045 116.052 25.6534C114.714 26.1202 115.224 28.2956 116.584 27.839C118.443 27.2212 120.184 26.3041 121.928 25.3858C122.012 25.486 122.117 25.5824 122.258 25.6585C123.296 26.2268 124.046 27.1109 124.925 27.877C123.778 29.3789 122.516 30.7933 121.315 32.1607C120.304 33.3137 121.954 35.0465 122.966 33.8846C126.155 30.2326 129.714 26.294 130.812 21.3913Z" fill="#FFFFFE"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M140.399 33.9473C141.477 33.0078 140.251 31.1889 139.106 32.0964C138.141 32.8595 137.17 33.6099 136.195 34.3525C135.352 33.3708 134.493 32.4083 133.672 31.3985C133.642 31.3589 133.601 31.3435 133.569 31.309C134.604 30.496 135.635 29.6741 136.685 28.8791C137.844 27.9984 136.557 26.1564 135.383 27.0141C131.839 29.5974 128.316 32.2651 125.032 35.1834C123.949 36.1433 125.188 37.9917 126.345 37.0611C128.183 35.5822 130.02 34.1045 131.86 32.6409C131.874 32.6665 131.876 32.6908 131.891 32.7176C132.546 33.7747 133.369 34.8792 134.28 35.8008C132.282 37.3014 130.272 38.7791 128.259 40.267C127.057 41.1541 128.358 42.9743 129.588 42.1677C133.349 39.6854 136.992 36.9243 140.399 33.9473Z" fill="#FFFFFE"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M133.517 44.8012C135.068 43.9679 136.621 43.1383 138.176 42.3063C139.312 43.7194 139.794 45.6975 137.866 46.6953C136.038 47.6472 134.497 46.2081 133.517 44.8012ZM140.274 41.1663C141.73 40.3849 143.179 39.6072 144.62 38.8024C145.883 38.0927 144.778 36.2296 143.493 36.9071C139.473 39.0361 135.417 41.1119 131.431 43.2989C130.937 43.5672 130.789 44.0098 130.865 44.4228C130.849 44.56 130.862 44.7059 130.925 44.8641C132.168 48.0761 135.593 50.2706 139.061 48.7067C142.364 47.2193 141.959 43.6204 140.274 41.1663Z" fill="#FFFFFE"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M151.1 56.6145C147.218 57.7382 144.419 58.7947 140.166 60.1585C139.845 59.436 139.595 58.6868 139.359 57.9363C142.059 57.0602 144.858 56.4062 147.446 55.2152C148.716 54.6285 148.025 52.6781 146.681 53.1479C144.042 54.0685 141.26 54.6412 138.652 55.6532C138.429 54.9358 138.196 54.2209 137.908 53.5238C141.312 51.8159 145.068 50.9423 148.618 49.6166C150.015 49.0935 149.214 46.931 147.813 47.4275C143.72 48.8801 139.505 49.8884 135.686 52.0089C135.272 52.2388 135.11 52.9498 135.267 53.4006C136.073 55.6863 137.499 59.5452 138.489 62.152C138.714 62.7412 139.344 63.0879 140.024 62.8606C144.026 61.5298 147.587 60.1877 151.862 58.9369C153.319 58.5115 152.588 56.1853 151.1 56.6145Z" fill="#FFFFFE"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M142.876 70.9654C142.646 69.6999 142.35 68.4515 142.061 67.1995C143.676 66.818 145.307 66.5271 146.943 66.252C147.033 66.9208 147.188 67.5663 147.442 68.2033C147.839 69.1949 149.617 68.8147 149.558 67.7436C149.515 67.0968 149.388 66.4806 149.204 65.8644C150.138 65.703 151.07 65.5355 151.997 65.3435C152.383 66.5014 152.733 67.6641 152.995 68.8648C153.289 70.2256 155.354 69.7598 155.129 68.4026C154.865 66.8229 154.388 65.3166 153.873 63.8029C153.667 63.2112 153.177 62.8321 152.517 62.9532C148.501 63.6892 144.372 64.0658 140.465 65.2958C139.883 65.478 139.446 65.9891 139.601 66.6224C139.98 68.2266 140.393 69.8222 140.693 71.4385C140.951 72.8348 143.129 72.3555 142.876 70.9654Z" fill="#FFFFFE"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M155.556 79.0905C156.671 78.4326 157.19 76.99 156.963 75.7985C156.685 74.3825 155.343 73.6545 153.957 73.529C152.532 73.401 152.236 75.4388 153.656 75.6488C154.31 75.7442 154.885 76.0098 154.628 76.7292C154.295 77.6817 153.037 77.6612 152.229 77.4318C150.184 76.8451 148.635 75.3868 146.429 75.1877C144.982 75.0537 144.67 77.2254 146.126 77.3461C149.533 77.6274 151.985 81.2007 155.556 79.0905Z" fill="#FFFFFE"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M143.921 76.8013C144.021 76.0679 143.338 75.2324 142.551 75.4184C142.545 75.4184 142.537 75.4208 142.53 75.4232C141.945 75.464 141.411 75.9274 141.439 76.7221L141.441 76.7941C141.463 77.3727 141.988 77.7124 142.474 77.8361C142.497 77.8409 142.521 77.8481 142.549 77.8589C143.193 78.0173 143.843 77.4099 143.921 76.8013Z" fill="#FFFFFE"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M156.724 83.4923C157.989 83.4949 157.889 81.4484 156.749 81.2926C153.989 80.9134 150.203 81.0134 147.351 81.0082C146.154 81.0082 146.083 83.1781 147.326 83.2339C150.193 83.3663 153.857 83.4923 156.724 83.4923Z" fill="#FFFFFE"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M144.541 82.4344C144.659 81.5956 143.974 80.9448 143.196 81.0037C143.159 81.0062 143.122 81.0086 143.081 81.0135C141.925 81.1032 141.667 82.9269 142.75 83.3579C142.786 83.3702 142.821 83.3861 142.857 83.4009C143.585 83.6907 144.422 83.2707 144.541 82.4344Z" fill="#FFFFFE"/>
+				</svg>
+			</div>
+			<div class="footer__item">
+				<a href="/" class="footer__logo">
+					<svg width="136" height="40" viewBox="0 0 136 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<mask id="mask0_346_36" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="25" height="40">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M24.485 39.9625H0.0371094V0.603073H12.261H24.485V39.9625Z" fill="white"/>
+						</mask>
+						<g mask="url(#mask0_346_36)">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M2.60749 28.5261V12.8978C2.60749 11.1292 3.026 9.12738 4.65491 8.06153V12.3588C4.65491 14.2412 5.4876 15.7231 6.87418 16.544V19.1446H9.22265V17.2375C9.3636 17.2468 9.50516 17.2554 9.65044 17.2554H14.6979C14.8432 17.2554 14.9847 17.2468 15.1251 17.2369V19.1446H17.4741V16.5212C18.8502 15.688 19.6934 14.2031 19.6934 12.3588V8.04C21.0522 8.90646 21.7402 10.5274 21.7402 12.8978V28.5261H2.60749ZM7.004 7.32615C7.2012 7.31077 7.40087 7.29723 7.61476 7.29723H16.7329C16.9437 7.29723 17.1471 7.30523 17.3443 7.32061V12.3588C17.3443 13.9606 16.3546 14.9169 14.6979 14.9169H9.65044C7.96898 14.9169 7.004 13.9846 7.004 12.3588V7.32615ZM9.22265 4.3723C9.22265 3.44984 9.73327 2.94153 10.6605 2.94153H13.6878C14.8759 2.94153 15.1251 3.72 15.1251 4.3723V4.95938H9.22265V4.3723ZM21.7322 36.5471L18.0194 31.3255C17.9131 31.1821 17.7863 31.0265 17.6398 30.864H24.0893V12.8978C24.0893 8.2 21.6314 5.29538 17.4741 4.98953V4.3723C17.4741 2.15323 15.9169 0.603073 13.6878 0.603073H10.6605C8.43076 0.603073 6.87418 2.15323 6.87418 4.3723V4.98953C2.71691 5.29538 0.2584 8.2 0.2584 12.8978V30.864H8.772C8.37884 31.448 7.93745 31.8246 7.57335 32.0517L0 36.5674L2.21618 40L4.19251 38.7354L3.28687 37.3335L8.7992 34.0462C9.64425 33.5206 10.7137 32.552 11.4135 30.8689C14.2658 30.7785 15.5905 31.9865 16.1154 32.6948L21.2154 39.8683L24.4849 37.4062L23.0675 35.5415L21.7322 36.5471Z" fill="#007EA7"/>
+						</g>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M44.569 13.1311L39.6854 25.1311L34.8636 13.1311H32.02L39.6854 31.4695L47.4127 13.1311H44.569Z" fill="#007EA7"/>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M52.1109 28.7618C50.2563 28.7618 49.0818 27.1618 49.0818 25.3157C49.0818 23.3465 50.2563 21.808 52.1109 21.808C53.7181 21.808 55.2018 22.9157 55.2018 25.3157C55.2018 27.5926 53.7181 28.7618 52.1109 28.7618ZM54.9545 21.0695C54.3363 19.7157 52.6054 19.5311 51.8018 19.5311C48.8963 19.5311 46.4854 21.6849 46.4854 25.2542C46.4854 28.2695 48.34 31.0388 51.74 31.0388C52.5436 31.0388 53.7181 30.8542 54.9545 29.5618V30.4234H57.4272V19.9618H54.9545V21.0695Z" fill="#007EA7"/>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M66.4527 19.5311C65.8345 19.5311 64.2273 19.5926 63.6091 20.8234V19.9618H61.1364V30.4234H63.6091V25.5003C63.6091 21.9926 64.7836 21.808 65.9582 21.808C66.9473 21.808 67.9364 21.8695 67.9364 24.6388V30.3618H70.4091V24.0234C70.4091 22.3618 70.1 21.6234 69.7291 21.008C69.3582 20.5157 68.4309 19.5311 66.4527 19.5311Z" fill="#007EA7"/>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M77.8891 28.7618C76.0345 28.7618 74.86 27.1618 74.86 25.3157C74.86 23.3465 76.0345 21.808 77.8891 21.808C79.4964 21.808 80.98 22.9157 80.98 25.3157C80.98 27.5926 79.4964 28.7618 77.8891 28.7618ZM80.9182 21.0695C79.6818 19.7157 78.4454 19.5311 77.6418 19.5311C74.7363 19.5311 72.3254 21.6849 72.3254 25.2542C72.3254 28.2695 74.3036 31.0388 77.6418 31.0388C78.4454 31.0388 79.6818 30.8542 80.9182 29.5618V30.4234H83.3909V11.9618H80.9182V21.0695Z" fill="#007EA7"/>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M90.0673 19.9003C89.6963 20.0849 89.5109 20.4542 88.8927 20.8234V19.9618H86.42V30.4234H88.8927V25.0695C88.8927 24.3311 88.9545 23.2849 89.6963 22.5465C90.1909 22.0542 90.8091 21.9311 91.3036 21.9311C91.5509 21.9311 92.0454 21.9311 92.6018 22.3003L93.7145 20.0234C93.0345 19.5926 92.2927 19.5311 91.6745 19.5311C91.1182 19.5311 90.5618 19.5926 90.0673 19.9003Z" fill="#007EA7"/>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M99.9582 28.7618C97.98 28.7618 96.6818 27.408 96.6818 25.3157C96.6818 22.8542 98.2891 21.808 99.9582 21.808C101.627 21.808 103.235 22.7926 103.235 25.3157C103.173 27.3465 101.936 28.7618 99.9582 28.7618ZM99.9582 19.5311C96.6818 19.5311 94.0854 21.9311 94.0854 25.2542C94.0854 28.5772 96.62 31.0388 99.9582 31.0388C103.296 31.0388 105.831 28.6388 105.831 25.2542C105.769 21.8695 103.235 19.5311 99.9582 19.5311Z" fill="#007EA7"/>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M115.536 26.0542C115.536 26.7311 115.351 27.4695 114.918 28.0234C114.609 28.4542 113.929 28.7618 113.187 28.7618C112.445 28.7618 111.951 28.4542 111.58 28.0234C111.147 27.4695 111.209 26.7311 111.209 26.0542V19.9618H108.736V26.1772C108.736 27.5926 108.736 28.7618 109.787 29.7465C110.776 30.7311 112.075 31.1003 113.187 31.1003C114.424 31.1003 115.845 30.7311 116.835 29.7465C117.824 28.7618 118.071 27.5926 118.071 26.1772V19.9003H115.598V26.0542H115.536Z" fill="#007EA7"/>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M130.496 19.9003H127.096L123.573 23.4695V11.9003H121.1V30.3618H123.573V26.4849L124.005 25.8695L127.591 30.3618H130.805L125.736 24.208L130.496 19.9003Z" fill="#007EA7"/>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M132.845 30.3618H135.318V19.9003H132.845V30.3618Z" fill="#007EA7"/>
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M134.082 16.7095C134.94 16.7095 135.57 16.0831 135.57 15.2283C135.57 14.3729 134.94 13.7465 134.082 13.7465C133.223 13.7465 132.593 14.3729 132.593 15.2283C132.593 16.0258 133.223 16.7095 134.082 16.7095Z" fill="#007EA7"/>
+					</svg>	
+				</a>
+				<div class="footer__nav">
+					<ul>
+						<li><a href="#" class="footer__nav__link">О нас</a></li>
+						<li><a href="#" class="footer__nav__link">Прислать акцию</a></li>
+						<li><a href="#" class="footer__nav__link">Мерч</a></li>
+						<li><a href="#" class="footer__nav__link">Реклама и сотрудничество</a></li>
+						<li><a href="#" class="footer__nav__link">Бот для уведомлений</a></li>
+					</ul>
+				</div>
+				<div class="copyright">© 2013-2023. «При копировании указывайте ссылку на нас, пожалуйста.»</div>
+				<a href="#" class="footer__link">Иллюстрации</a>
+			</div>
+			<div class="footer__item">
+				<svg width="162" height="162" viewBox="0 0 162 162" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<g clip-path="url(#clip0_346_328)">
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M114.673 9.25056C113.4 9.94435 112.127 10.7538 110.854 11.5632C109.581 12.3726 108.424 13.182 107.267 13.9915C103.911 16.5354 100.903 19.773 98.1257 22.8951C94.4228 27.0578 90.8357 31.3362 87.8271 36.5396C86.4385 38.9679 85.05 41.5118 83.5457 44.1713C82.5042 46.0214 81.5785 48.1028 80.6528 50.2998C80.3057 50.9936 80.0742 52.0343 79.2643 52.0343C78.6857 52.0343 78.2228 51.3405 77.8757 50.7623C77.5285 50.0685 77.1814 49.4904 76.95 49.0279C75.0985 45.4433 73.1314 41.9743 71.28 38.7366C69.8914 36.424 68.7342 34.1114 67.4614 31.9144C66.1885 29.7174 64.6842 27.636 63.0643 25.6703C60.6343 22.6638 58.32 19.773 55.4271 17.3448C52.4185 15.0321 49.0628 12.9508 45.7071 11.1007C44.55 10.4069 43.3928 9.82872 42.12 9.36619C40.7314 8.90366 39.3428 8.78803 37.7228 8.44114C34.1357 7.86298 31.1271 8.09424 28.2342 8.78803C20.1342 10.8694 14.4643 16.4197 10.53 23.0107C9.14139 25.3234 8.09996 27.636 7.05853 30.1799C6.59568 31.4518 6.01711 32.8394 5.66996 34.1114C5.32282 35.6146 5.20711 37.1178 4.97568 38.7366C4.62854 45.5589 5.20711 52.2655 6.24854 58.5097C6.71139 61.4004 7.63711 64.1756 8.44711 66.9508C9.25711 69.7259 10.1828 72.2698 11.2242 74.8137C12.2657 77.3576 13.1914 79.9015 14.3485 82.3298C14.9271 83.4861 15.5057 84.758 16.0842 85.9144C16.6628 87.1863 17.2414 88.3426 17.82 89.4989C20.1342 94.2398 22.9114 98.6339 25.6885 102.912C29.8542 109.388 34.1357 115.747 38.88 121.645C43.6242 127.542 48.9471 132.861 54.0385 138.411C57.51 142.227 61.0971 145.233 65.3785 148.355C68.7342 150.899 72.4371 153.79 76.2557 156.103C76.8343 156.45 77.76 157.028 77.9914 157.028C78.4543 157.028 79.7271 155.987 80.5371 155.525C81.4628 154.946 82.3885 154.484 83.0828 154.021C84.8185 152.865 86.3228 151.709 87.8271 150.668C92.8028 147.199 97.0842 143.961 101.481 140.146C102.87 138.874 104.374 137.717 105.763 136.33C107.151 135.058 108.424 133.555 109.813 132.398C111.317 131.126 112.59 129.854 113.979 128.467C114.673 127.773 115.367 127.195 115.946 126.501C117.219 124.998 118.491 123.61 119.764 122.223C121.731 120.026 123.583 117.944 125.203 115.632C126.36 114.013 127.517 112.51 128.559 110.891C131.683 106.034 135.27 101.293 137.931 96.09C138.857 94.3555 139.783 92.5054 140.709 90.6553C144.296 83.4861 147.767 76.3169 150.66 68.454C152.164 64.5225 153.669 60.591 154.594 56.3127C155.636 51.9187 156.099 47.1777 156.33 41.9743C156.446 39.4304 156.33 37.0022 156.214 34.5739C156.099 32.03 155.636 29.7174 155.289 27.5204C154.363 23.0107 152.743 19.3105 150.66 15.9572C148.461 12.4882 146.263 9.82872 142.444 8.09424C138.741 6.4754 133.997 5.20345 128.79 5.55034C122.889 5.78161 118.607 7.28482 114.673 9.25056Z" fill="white"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M43.9714 120.373C50.6828 122.338 56.4685 124.651 62.1385 127.542C64.9157 128.929 67.4614 130.433 70.47 131.936C72.3214 132.861 73.9414 133.786 75.5614 134.827C76.2557 135.289 77.8757 136.214 78.2228 136.792C78.6857 137.602 78.6857 138.989 78.9171 140.261C79.1485 141.418 79.38 143.036 78.57 143.499C77.9914 143.846 76.4871 143.499 75.4457 143.383C72.09 143.036 68.7343 142.458 65.8414 141.88C63.6428 141.418 61.6757 141.071 59.8243 140.608C57.8571 140.146 56.1214 139.452 54.3857 138.758C52.4185 138.064 50.9143 137.255 49.5257 136.214C48.1371 135.173 47.2114 133.902 46.17 132.283C45.2443 130.895 43.9714 129.623 43.0457 128.004C42.5828 127.31 42.12 126.501 41.7728 125.692C40.9628 124.188 40.3843 123.032 40.5 120.719C40.6157 118.869 40.8471 116.441 41.7728 115.632C41.8885 115.516 41.8885 115.516 42.12 115.516C43.8557 115.4 43.74 118.522 43.9714 120.373Z" fill="#FFD15F"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M78.8014 140.261C78.57 138.989 78.57 137.602 78.1071 136.792C77.76 136.214 76.14 135.174 75.4457 134.827C73.8257 133.786 72.2057 132.861 70.3542 131.936C67.4614 130.433 64.8 128.93 62.0228 127.542C58.4357 125.692 54.8485 124.189 51.03 122.685C50.9142 122.801 50.6828 122.917 50.5671 123.032C49.2942 124.998 46.2857 124.304 44.4342 123.032C43.2771 122.223 42.12 121.182 41.6571 119.795C41.31 118.407 41.4257 117.019 41.5414 115.632C41.5414 115.516 41.5414 115.516 41.5414 115.401C40.5 116.21 40.2685 118.638 40.2685 120.488C40.1528 122.801 40.7314 123.957 41.5414 125.461C41.8885 126.27 42.4671 127.079 42.8142 127.773C43.74 129.392 45.0128 130.78 45.9385 132.052C46.98 133.555 48.0214 134.827 49.2942 135.983C50.6828 137.139 52.1871 137.833 54.1542 138.527C55.89 139.221 57.7414 139.915 59.5928 140.377C61.4442 140.84 63.5271 141.302 65.61 141.649C68.5028 142.227 71.8585 142.805 75.2142 143.152C76.2557 143.268 77.8757 143.615 78.3385 143.268C79.38 142.921 79.0328 141.418 78.8014 140.261Z" fill="#F9A63B"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M50.2201 129.739C52.5343 123.726 55.3115 118.869 59.13 114.591C59.94 113.782 60.75 113.088 61.6758 112.394C63.99 110.775 66.4201 109.272 70.4701 109.619C74.1729 109.966 76.9501 111.932 79.1486 114.013C80.1901 115.054 81.1158 116.21 82.1572 117.482C84.1243 120.026 85.5129 122.107 86.7858 125.576C87.0172 126.27 87.3643 127.079 87.5958 127.889C87.8272 128.814 88.29 129.854 88.1743 130.433C88.0586 131.358 86.9015 132.051 86.2072 132.514C85.1658 133.092 83.43 134.017 81.5786 133.439C80.4215 133.092 79.1486 131.936 78.2229 131.126C76.14 129.392 74.5201 127.773 72.3215 125.923C71.2801 125.114 69.8915 123.842 68.3872 124.189C67.1143 124.42 65.4943 126.386 64.6843 127.311C63.7586 128.467 62.7172 129.97 61.7915 131.242C60.8658 132.745 60.0558 134.017 58.8986 135.174C57.7415 136.33 56.0058 138.18 53.9229 137.717C52.7658 137.486 51.9558 136.792 51.1458 135.983C49.6415 134.595 48.2529 133.092 46.7486 131.358C46.1701 130.664 44.7815 129.508 44.8972 128.814C45.0129 127.657 46.6329 127.773 47.5586 128.12C48.8315 128.814 49.4101 129.392 50.2201 129.739Z" fill="#FFD15F"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M81 128.929C80.19 127.426 79.2642 126.039 78.3385 124.651C76.8342 122.454 75.2142 120.026 72.9 118.638C72.7842 118.638 72.7842 118.523 72.6685 118.523C70.8171 117.713 68.7342 117.366 66.5357 116.904C64.9157 116.441 62.9485 115.979 61.6757 114.707C61.3285 114.244 60.9814 113.782 60.75 113.319C60.1714 113.782 59.5928 114.244 59.13 114.822C55.3114 119.101 52.5342 123.957 50.22 129.97C49.41 129.508 48.8314 129.045 47.6742 128.698C46.7485 128.351 45.1285 128.236 45.0128 129.392C44.8971 130.086 45.4757 131.126 46.0542 131.82C47.5585 133.555 49.2942 135.52 50.7985 136.908C51.6085 137.602 52.8814 137.949 54.0385 138.18C56.2371 138.642 57.9728 136.792 59.0142 135.636C60.1714 134.48 60.9814 133.092 61.9071 131.705C62.7171 130.317 63.7585 128.929 64.8 127.773C65.61 126.848 67.23 124.882 68.5028 124.651C70.0071 124.42 71.3957 125.576 72.4371 126.385C74.6357 128.236 76.2557 129.854 78.3385 131.589C79.2642 132.283 80.5371 133.555 81.6942 133.902C82.0414 134.017 82.2728 134.017 82.62 134.017C81.81 132.283 81.9257 130.433 81 128.929Z" fill="#F9A63B"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M91.53 103.259C85.9757 103.143 81.4629 101.872 77.9914 99.4432C71.28 94.818 67.6929 86.955 65.9572 77.0107C65.4943 74.5824 65.3786 72.2698 65.2629 69.1477C65.1472 67.5289 64.6843 62.0942 66.5357 62.0942C67.4614 62.0942 67.6929 62.788 67.9243 63.5974C68.3872 62.788 68.1557 61.7473 69.1972 61.6317C70.3543 61.516 70.5857 63.1349 71.1643 63.9443C71.3957 62.5567 71.28 60.3597 72.5529 60.2441C73.5943 60.1285 73.9414 61.6317 74.2886 62.5567C74.9829 64.7537 75.2143 66.7195 75.6772 68.9165C76.95 74.1199 78.2229 79.2077 80.0743 83.833C81.9257 88.6895 84.24 92.5053 86.9014 96.4368C88.0586 98.0557 89.1 99.0963 90.6043 100.368C91.0672 100.831 92.5714 101.872 92.5714 102.334C92.4557 102.797 91.9929 102.912 91.53 103.259Z" fill="#FFD15F"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M131.799 72.6169C133.65 68.1072 134.807 62.3256 140.13 61.5162C142.907 61.0537 145.221 63.0194 146.147 64.8695C147.767 68.4541 146.726 74.1201 145.8 77.8203C145.684 78.5141 145.453 79.2079 145.337 79.786C145.106 80.4798 144.759 81.058 144.759 81.6361C144.759 82.3299 145.106 82.9081 145.106 83.8331C145.106 85.6832 143.833 88.2271 143.023 89.6147C140.361 94.8181 137.006 99.559 134.113 104.3C131.104 109.272 127.98 113.782 124.509 118.291C123.351 119.795 122.194 121.182 120.921 122.57C118.607 125.345 116.177 128.351 113.631 131.011C112.359 132.398 111.201 133.786 109.813 134.942C108.424 136.214 107.151 137.486 105.763 138.758C103.101 141.071 100.093 143.499 97.0842 145.812C95.0014 147.431 92.6871 149.049 90.2571 150.668C89.4471 151.246 88.4057 152.171 87.9428 152.171C87.48 152.171 86.7857 151.825 86.0914 151.593C82.0414 150.206 79.0328 147.431 76.95 143.962C74.52 139.799 73.2471 134.711 73.4785 128.467C73.5942 125.576 74.2885 122.917 74.9828 120.373C75.6771 117.829 76.4871 115.516 77.5285 113.435C79.7271 109.041 82.6199 105.572 85.86 102.681C87.4799 101.178 89.2157 99.559 90.9514 98.1715C92.6871 96.6682 94.5385 95.3963 96.1585 93.8931C97.7785 92.3899 99.3985 90.6554 100.903 89.1522C103.333 86.7239 105.647 84.4113 108.193 82.0987C110.623 79.9016 113.4 77.7046 116.293 75.8545C120.343 73.5419 125.319 71.9231 131.799 72.6169ZM138.973 66.4884C138.163 69.0323 137.237 71.3449 136.427 73.7732C138.279 74.3513 139.667 75.392 141.056 76.5483C141.403 73.4263 141.75 70.1886 141.981 67.0665C141.056 66.7196 140.014 66.604 138.973 66.4884Z" fill="#FFD15F"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M135.154 64.9851C133.766 67.1821 132.84 70.0729 131.914 72.6168C133.419 72.7324 135.039 73.3106 136.427 73.7731C137.237 71.2292 138.163 68.9166 138.973 66.4883C137.931 66.1414 136.311 65.6789 135.154 64.9851Z" fill="#F9A63B"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M141.981 66.9507C141.634 70.0728 141.403 73.3105 141.056 76.4325C142.907 78.167 144.759 81.7516 144.759 81.6359C144.759 81.0578 145.106 80.4796 145.337 79.7858C145.569 79.2077 145.684 78.3983 145.8 77.8201C146.61 74.5824 147.536 69.8415 146.726 66.3726C145.8 66.9507 143.139 67.0663 141.981 66.9507Z" fill="#F9A63B"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M130.757 92.2743C127.517 92.968 123.583 92.6211 121.616 89.6147C117.103 82.9081 124.856 77.0109 129.137 72.5012C127.17 72.5012 125.319 72.6169 123.699 73.0794C123.351 73.3106 123.004 73.5419 122.773 73.7732C120.227 76.7796 117.797 79.786 115.367 82.9081C114.441 87.4177 116.293 92.043 120.69 94.24C129.137 98.4027 135.154 92.6211 139.667 86.377C137.006 88.8053 134.344 91.4648 130.757 92.2743Z" fill="#F9A63B"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M85.1657 141.302C79.9585 134.711 80.4214 124.188 83.4299 116.788C87.0171 108.116 93.9599 103.259 100.903 97.4775C106.11 93.0835 110.16 89.2677 114.441 85.7987C114.441 85.6831 119.186 76.4325 121.731 73.5417C119.764 74.1199 117.913 75.045 116.293 75.97C113.284 77.8201 110.623 79.9015 108.193 82.2141C105.647 84.5268 103.333 86.8394 100.903 89.2677C99.2828 90.8865 97.7785 92.5054 96.1585 94.0086C94.5385 95.5118 92.6871 96.8994 90.9514 98.2869C89.2157 99.6745 87.4799 101.293 85.8599 102.797C82.7357 105.687 79.7271 109.156 77.5285 113.55C76.4871 115.632 75.6771 117.944 74.9828 120.488C74.2885 123.032 73.5942 125.692 73.4785 128.582C73.2471 134.827 74.52 139.914 76.95 144.077C78.9171 147.546 81.9257 150.206 86.0914 151.709C86.7857 151.94 87.4799 152.287 87.9428 152.287C88.5214 152.287 89.5628 151.246 90.2571 150.784C91.8771 149.743 93.3814 148.702 94.8857 147.546C91.1828 146.505 87.7114 144.54 85.1657 141.302Z" fill="#F9A63B"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M90.6043 100.368C89.6786 99.559 88.8686 98.7496 88.0586 97.9402C84.3557 100.137 79.4957 94.9338 77.1814 91.2335C71.7429 82.4455 69.5443 72.3856 70.2386 62.0944C70.0072 61.7475 69.66 61.6318 69.1972 61.6318C68.2714 61.7475 68.3872 62.9038 67.9243 63.5976C67.6929 62.9038 67.4614 62.0944 66.5357 62.0944C64.6843 62.21 65.1472 67.5291 65.2629 69.1479C65.4943 72.2699 65.61 74.5826 65.9572 77.0108C67.6929 86.9552 71.28 94.8181 77.9914 99.4434C81.4629 101.872 85.9757 103.028 91.53 103.259C91.8771 102.912 92.4557 102.797 92.4557 102.219C92.5714 101.756 91.0671 100.715 90.6043 100.368Z" fill="#F9A63B"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M124.856 13.7603C124.393 11.2164 124.393 7.51616 127.517 7.86306C129.253 8.78811 129.6 11.2164 129.831 13.7603C130.063 16.4198 129.831 19.195 129.947 21.8545C129.947 22.5483 130.294 23.4733 129.6 23.589C129.021 23.8202 128.211 23.0108 127.633 22.6639C125.897 21.392 124.393 20.12 122.889 18.7324C121.847 17.8074 120.921 16.8823 120.111 15.726C119.417 14.801 118.144 12.8352 118.954 11.6789C119.186 11.332 119.764 11.1007 120.227 11.1007C121.269 10.9851 121.963 11.6789 122.773 12.2571C123.583 12.8352 124.277 13.1821 124.856 13.7603ZM128.674 13.529C128.559 12.3727 127.98 8.44122 126.707 9.13501C125.55 9.8288 125.897 12.8352 126.244 14.3384C126.36 15.1479 126.939 16.4198 126.129 16.5354C125.666 16.6511 125.203 15.726 124.74 15.3791C123.814 14.3384 123.12 13.7603 121.963 13.0665C121.384 12.7196 120.806 12.3727 120.111 12.4883C119.996 13.7603 120.806 14.6853 121.5 15.4948C123.583 18.0386 126.129 20.0044 128.674 21.9701C128.559 19.3106 128.906 16.3042 128.674 13.529Z" fill="#5EBEBA"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M141.75 29.2548C142.791 26.2484 142.907 21.7388 144.99 20.0043C146.147 18.9636 147.999 19.1949 148.809 20.4668C149.503 21.7388 149.503 23.9358 149.387 26.0172C149.156 29.2548 148.114 32.3769 147.189 35.3833C145.453 41.0493 143.254 46.484 140.361 51.4561C139.667 52.6124 138.973 53.7688 138.163 55.0407C137.584 56.0814 136.427 58.2784 135.733 58.1628C135.386 58.0471 135.27 58.0471 135.154 57.2377C135.039 56.5439 135.154 56.4283 135.154 55.7345C135.039 53.1906 134.691 50.0686 134.46 47.6403C133.65 40.1242 132.84 33.6489 132.146 26.2484C131.799 22.0857 131.451 16.0728 134.691 15.1478C136.427 14.6853 138.047 15.8416 138.741 16.7666C140.94 19.4262 141.403 24.5139 141.75 29.2548ZM147.189 30.5268C147.536 29.1392 147.883 27.1735 147.999 25.3234C148.114 23.4733 147.999 20.6981 146.726 20.5825C145.453 20.4668 144.874 22.2013 144.527 23.3576C143.717 26.0172 143.254 28.5611 142.56 31.3362C142.329 32.3769 141.981 34.9208 141.056 34.6895C140.361 34.5739 140.593 32.2613 140.593 31.4518C140.477 29.0236 140.361 25.6703 139.783 22.7795C139.32 20.2356 138.279 17.2292 136.659 16.4197C136.196 16.1885 135.386 16.1885 135.039 16.3041C132.956 17.3448 133.303 22.5482 133.534 25.439C133.766 29.0236 134.229 32.1456 134.576 35.3833C135.386 42.09 135.849 48.681 136.543 55.272C140.824 47.8715 144.874 40.3555 147.189 30.5268Z" fill="#5EBEBA"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M40.2686 22.0857C42.0043 29.0236 43.8557 36.3083 45.7072 43.2462C45.9386 44.1713 46.4014 45.4432 45.8229 46.2527C45.1286 46.3683 44.7814 45.6745 44.55 45.212C44.3186 44.6338 44.2029 43.94 44.0872 43.4775C42.3514 37.5803 41.0786 31.3362 39.5743 25.0921C39.3429 23.9358 39.1114 22.7794 38.7643 21.2762C38.6486 20.5824 37.7229 18.1542 38.9957 18.0385C39.8057 17.9229 40.7314 19.6574 41.1943 20.3512C45.36 26.4797 49.6414 32.8394 54.3857 38.3897C52.7657 32.7238 50.9143 26.8265 48.9472 21.1606C48.6 20.2355 48.3686 19.1949 48.0214 18.2698C47.6743 17.3448 47.2114 16.4197 47.4429 15.379C48.6 14.6852 49.0629 16.8822 49.5257 18.0385C50.7986 21.6231 51.7243 24.3983 52.8814 28.0985C54.0386 31.4518 55.1957 34.6895 56.0057 38.3897C56.1214 38.8522 56.9314 41.6274 55.6586 41.743C54.9643 41.8587 53.8072 40.3555 53.3443 39.6617C51.2614 37.2334 49.2943 34.9208 47.5586 32.3769C44.8972 29.0236 42.5829 25.5546 40.2686 22.0857Z" fill="#7F1D3E"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M35.9872 33.5331C33.7887 34.2269 31.8215 35.0363 29.5072 35.7301C29.0444 39.546 28.9287 43.4774 28.6972 47.7558C28.5815 48.9121 28.813 51.2248 27.7715 51.1091C26.7301 50.9935 27.193 48.1027 27.193 47.2933C27.5401 38.3897 28.1187 30.2954 29.5072 22.2012C29.7387 21.1605 29.9701 19.1948 30.433 18.6166C30.6644 18.2697 31.3587 18.0385 31.9372 18.1541C32.863 18.501 33.4415 19.8886 33.9044 21.1605C34.9458 23.7044 35.5244 25.7858 36.3344 28.4453C36.6815 29.6016 37.2601 30.8736 37.4915 32.0299C38.4172 35.4989 39.5744 39.7772 40.5001 43.7087C40.6158 44.2869 41.5415 47.2933 40.3844 47.5246C39.343 47.6402 38.9958 45.4432 38.8801 44.5181C37.8387 40.3554 37.0287 37.4646 35.9872 33.5331ZM29.7387 34.1113C30.6644 33.88 31.5901 33.4175 32.5158 33.0706C33.5572 32.7237 34.5987 32.4924 35.5244 32.1455C34.3672 28.2141 33.3258 23.9357 31.5901 20.4667C30.7801 24.7451 30.2015 29.3704 29.7387 34.1113Z" fill="#7F1D3E"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M20.8286 51.4562C21.4072 44.287 21.4072 36.0771 21.4072 28.4454C21.4072 27.2891 21.4072 26.2484 21.4072 25.0921C21.4072 23.8202 21.2915 21.9701 21.7543 21.5075C23.2586 20.6981 23.0272 23.4733 22.9115 24.8609C22.7958 26.4797 23.0272 27.9829 23.0272 29.2549C23.0272 32.4926 23.1429 35.1521 23.1429 38.1585C23.1429 41.3962 22.9115 43.7088 22.7958 46.7153C22.6801 48.1028 22.6801 49.4904 22.5643 50.9936C22.4486 52.4968 22.2172 54.0001 21.2915 54.1157C20.2501 54.2313 19.6715 52.7281 19.0929 51.8031C18.5143 50.7624 18.0515 49.8373 17.5886 48.9123C16.6629 46.8309 15.9686 44.7495 15.0429 42.6681C13.8858 39.7774 12.6129 36.3084 11.4558 32.9551C11.3401 32.6082 10.1829 29.9487 11.3401 29.833C12.2658 29.7174 12.4972 31.4519 12.8443 32.2613C15.1586 38.7367 17.8201 45.5589 20.8286 51.4562Z" fill="#7F1D3E"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M120.69 43.4776C121.153 43.4776 121.5 43.0151 121.963 42.7838C122.426 42.5526 122.889 42.3213 123.236 42.09C123.93 41.7431 125.55 40.7024 125.781 41.8588C126.013 42.7838 124.393 43.4776 123.583 43.8245C122.541 44.4027 121.616 44.8652 120.69 45.3277C121.037 52.3812 121.384 59.4348 122.31 65.7945C124.277 65.332 125.781 64.1757 127.633 63.2506C128.211 62.9037 129.137 62.4412 129.369 63.3663C129.6 63.9444 128.79 64.5226 127.98 64.8695C126.244 65.7945 125.666 66.257 124.046 67.0665C123.351 67.4134 122.426 67.8759 121.731 67.7603C120.574 67.529 120.343 65.4476 120.227 63.9444C119.186 55.9658 118.839 47.9872 118.723 39.0836C118.723 37.696 118.839 35.7303 118.839 33.8802C118.954 32.1457 119.07 30.2956 119.533 29.3705C120.343 27.8673 123.236 26.5954 125.55 26.2485C126.244 26.1329 127.286 26.1329 127.286 26.8266C127.401 27.6361 126.476 27.6361 125.781 27.7517C124.046 28.2142 121.5 28.908 120.921 30.2956C120.574 31.2206 120.574 32.2613 120.574 33.302C120.69 36.6553 120.69 40.0087 120.69 43.4776Z" fill="#7F1D3E"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M112.127 71.1136C112.474 68.2228 112.59 64.7538 112.821 61.5161C113.053 58.3941 112.937 55.0408 113.053 51.4562C113.284 46.8309 113.169 41.2806 112.937 36.1928C112.937 34.9208 112.474 31.9144 113.053 31.5675C114.094 30.9894 114.21 32.4926 114.326 33.5333C114.557 36.1928 114.673 39.1992 114.673 41.9744C114.789 47.9872 114.673 53.8844 114.441 59.2035C114.326 61.0536 114.21 62.7881 114.094 64.6382C113.979 66.257 113.979 68.1071 113.747 70.0729C113.631 71.4605 113.516 74.2356 111.896 74.0044C110.97 73.8887 110.16 71.2292 109.697 70.3041C108.077 66.0258 106.92 61.2849 105.879 56.7752C104.837 52.2656 103.796 47.4091 102.87 42.4369C102.754 41.8588 102.639 41.0493 102.407 40.0086C102.291 39.4305 101.944 38.0429 102.754 37.9273C103.449 37.8116 103.564 38.7367 103.796 39.5461C104.606 43.2463 105.3 46.8309 106.226 50.4155C108.193 57.3534 109.697 64.8695 112.127 71.1136Z" fill="#7F1D3E"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M65.8414 41.0493C66.0729 40.9337 66.0729 40.7024 66.42 40.7024C66.9986 40.7024 67.23 41.7431 67.4614 42.4369C68.3871 46.2527 69.1971 49.9529 70.1229 53.7688C70.2386 54.3469 70.47 55.1564 70.5857 56.0814C70.7014 56.5439 71.1643 58.0472 70.2386 58.0472C69.1971 58.1628 68.7343 55.272 68.5029 54.3469C67.8086 51.4561 67.1143 48.4497 66.5357 45.5589C66.3043 44.1713 65.8414 42.6681 65.8414 41.0493Z" fill="#7F1D3E"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M62.7172 42.7836C62.7172 43.9399 62.2544 44.9806 61.9072 45.9057C61.5601 46.8307 61.2129 47.7558 60.7501 48.6808C60.9815 49.259 61.4444 49.6059 61.7915 49.9528C63.5272 52.0341 65.0315 54.3468 66.7672 56.6594C67.3458 57.4688 68.5029 58.5095 68.0401 59.6658C67.1144 60.3596 65.9572 58.3939 65.4944 57.7001C63.6429 55.2718 61.7915 52.381 60.0558 50.2997C59.8244 50.5309 59.7087 50.8778 59.4772 50.9934C60.2872 54.3468 60.8658 56.6594 61.5601 60.0127C61.7915 61.0534 62.1387 62.6723 61.3287 62.7879C60.0558 63.0191 59.7087 59.6658 59.4772 58.7408C58.5515 54.578 57.6258 50.8778 56.9315 46.4838C56.8158 45.6744 56.5844 44.5181 57.3944 44.5181C58.2044 44.5181 58.3201 45.79 58.4358 46.4838C58.6672 47.4089 58.7829 48.3339 58.8987 48.9121C60.0558 47.062 60.5187 44.5181 61.6758 42.5523C62.0229 42.3211 62.6015 42.5523 62.7172 42.7836Z" fill="#7F1D3E"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M95.8115 45.4432C99.0515 45.2119 100.209 50.2997 100.787 52.728C101.481 55.1562 102.06 59.2033 102.292 62.0941C102.523 64.7537 102.754 68.9164 102.639 72.7322C102.523 75.9699 101.944 80.5952 99.6301 80.8265C97.7786 80.9421 96.7372 78.8607 95.6958 76.6637C93.9601 72.9635 92.6872 68.6851 92.1086 64.0599C91.5301 59.6659 90.9515 53.4218 92.3401 49.1434C92.9186 47.062 93.6129 45.5588 95.8115 45.4432ZM94.1915 49.7215C92.9186 54.2312 93.7286 60.8222 94.4229 64.9849C95.1172 69.2633 96.1586 72.7322 97.6629 76.0856C98.1258 77.1262 98.5886 78.5138 99.6301 78.9764C100.324 78.3982 100.44 77.3575 100.671 76.4325C101.366 73.1948 101.134 69.3789 101.019 65.5631C100.903 63.1348 100.556 60.7065 100.209 58.5095C99.6301 55.1562 98.9358 51.9185 97.7786 49.259C97.4315 48.334 97.0843 47.2933 96.0429 46.9464C96.0429 46.9464 96.0429 46.8308 95.9272 46.8308C94.7701 47.4089 94.5386 48.334 94.1915 49.7215Z" fill="#7F1D3E"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M53.2286 45.5588C54.0386 45.3275 54.2701 46.7151 54.5015 47.6402C55.5429 51.9185 56.7001 56.5438 56.2372 61.6316C56.1215 63.4817 55.7744 65.6787 54.5015 66.3725C54.2701 66.4881 53.3444 66.7194 52.7658 66.6038C51.6086 66.3725 50.4515 64.4068 49.8729 63.3661C49.1786 61.9785 48.6001 60.1284 48.2529 58.9721C47.7901 57.2376 46.9801 53.9999 46.5172 51.5716C46.4015 50.8779 46.1701 49.3746 46.9801 49.259C47.7901 49.1434 47.9058 50.4153 48.0215 50.9935C48.8315 54.8093 49.5258 58.3939 51.0301 61.7472C51.2615 62.2098 51.6086 62.9036 51.9558 63.4817C52.3029 64.0599 52.7658 64.8693 53.3444 64.7537C54.2701 64.638 54.5015 61.7472 54.6172 60.3597C54.7329 56.6594 54.0386 53.1905 53.4601 50.1841C53.3444 49.6059 53.2286 48.7965 52.9972 47.8714C52.8815 46.9464 52.4186 45.7901 53.2286 45.5588Z" fill="#7F1D3E"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M40.0371 50.531C41.8886 50.1841 42.6986 51.9185 43.3929 53.3061C44.4343 55.3875 45.2443 58.6252 45.8229 61.1691C46.17 62.6723 46.2857 64.1755 46.2857 65.7943C46.2857 67.6445 46.0543 70.0727 44.7814 70.304C43.5086 70.5352 42.4671 69.1477 41.7729 67.9913C41.0786 66.835 40.6157 65.91 40.0371 64.4068C38.88 61.4003 38.1857 58.9721 37.9543 55.9657C37.8386 53.8843 38.07 50.6466 39.69 50.531C39.9214 50.531 40.0371 50.531 40.0371 50.531ZM39.5743 55.85C39.8057 59.4346 41.31 63.3661 42.5829 66.0256C43.0457 67.0663 43.5086 68.107 44.4343 68.5695C44.6657 67.5288 44.7814 65.91 44.6657 64.638C44.55 62.441 43.8557 59.7815 43.1614 57.5845C42.93 56.5438 42.5829 55.5031 42.0043 54.4624C41.5414 53.5374 40.9629 52.0342 40.0371 52.0342C39.5743 52.6123 39.5743 54.4624 39.5743 55.85Z" fill="#7F1D3E"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M29.8543 63.8286C29.3915 64.0599 29.7386 64.7537 29.97 65.2162C30.78 67.8758 31.4743 70.304 32.2843 73.1948C32.5157 73.8886 33.3258 75.97 32.4 76.3169C31.1272 76.6638 30.4329 73.4261 30.0858 72.2698C28.8129 67.9914 27.7715 64.4068 26.4986 60.1284C26.2672 59.4346 25.8043 58.394 25.8043 57.7002C25.92 56.3126 29.0443 54.6937 30.4329 54.3469C32.8629 53.8843 34.1358 55.7344 33.7886 58.1627C33.5572 59.5503 32.8629 60.7066 32.0529 61.7473C31.8215 61.8629 31.2429 62.4411 31.2429 62.5567C31.2429 62.788 32.4 63.5974 32.5158 63.8286C35.4086 66.4882 37.7229 68.5695 40.5 71.3447C40.9629 71.8072 41.6572 72.2698 41.5415 72.8479C41.5415 73.1948 41.0786 73.4261 40.9629 73.5417C40.0372 73.773 38.3015 71.6916 37.8386 71.3447C35.1772 68.8008 33.0943 66.8351 30.4329 64.2912C30.3172 64.0599 30.0857 63.5974 29.8543 63.8286ZM32.2843 57.4689C32.4 56.197 31.7057 55.5032 30.5486 55.7344C29.3915 56.0813 28.0029 57.0064 27.4243 57.7002C28.0029 59.2034 28.4658 60.8222 28.9286 62.3254C30.4329 61.516 32.0529 59.5503 32.2843 57.4689Z" fill="#7F1D3E"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M89.2157 86.4926C89.5629 86.4926 89.6786 86.1457 89.91 85.9144C90.6043 85.2206 91.2986 84.6425 92.1086 83.9487C92.4557 83.6018 92.9186 83.1392 93.6129 82.5611C94.0757 82.2142 95.1171 81.5204 95.4643 82.2142C95.8114 82.908 94.6543 83.833 94.1914 84.2956C93.0343 85.3363 91.7614 86.4926 90.6043 87.6489C90.0257 88.1114 89.5629 89.2677 88.6371 89.1521C87.5957 89.0365 87.2486 86.8395 87.0171 85.9144C85.05 78.0515 83.8929 69.9572 82.3886 61.2849C82.2729 60.5911 81.3471 57.0065 82.62 57.2378C83.6614 57.469 83.7771 59.2035 84.0086 60.3598C84.3557 61.7474 84.5871 63.4819 84.7029 64.1757C85.2814 67.1821 85.6286 69.726 85.9757 71.8073C87.0171 77.0108 88.0586 81.5204 89.2157 86.4926Z" fill="#7F1D3E"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M16.8943 59.666C21.6386 59.2034 24.0686 63.0193 25.3414 66.4882C25.92 67.9914 26.3829 69.7259 26.4986 71.3448C26.6143 72.9636 26.2672 74.8137 25.92 76.3169C25.4572 78.5139 24.4157 79.9015 22.9114 81.0578C22.4486 81.4047 21.9857 81.7516 21.4072 81.636C20.7129 81.5203 20.25 80.5953 19.9029 79.6702C17.82 74.4668 16.2 69.4946 14.4643 64.06C14.2329 63.2505 13.6543 62.0942 13.77 61.2848C13.77 60.1285 15.7372 59.7816 16.8943 59.666ZM23.9529 77.242C25.4572 73.4261 24.6472 68.2227 23.0272 65.2163C22.68 64.6381 22.3329 63.9443 22.1014 63.5974C20.8286 61.863 17.9357 60.591 15.39 61.6317C17.5886 67.6445 19.7872 73.773 21.9857 79.7859C22.9114 79.439 23.49 78.2827 23.9529 77.242Z" fill="#7F1D3E"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M58.3201 74.0043C58.5515 77.7046 59.593 80.5953 60.2872 83.9487C60.6344 84.0643 60.8658 83.6018 61.213 83.3705C61.5601 83.1392 61.9072 83.0236 62.3701 82.7923C62.833 82.5611 64.3372 81.5204 64.5687 82.6767C64.6844 83.3705 63.4115 84.1799 62.9487 84.5268C62.1387 85.105 61.5601 85.4519 60.7501 85.7988C62.2544 91.696 64.1058 97.3619 65.9572 102.797C67.1144 102.334 68.0401 101.872 69.0815 101.293C69.4287 101.178 71.743 99.3277 71.9744 100.831C72.0901 101.409 71.2801 101.872 70.8172 102.218C69.8915 102.912 68.503 103.49 67.4615 104.069C66.883 104.3 66.073 104.762 65.3787 104.531C64.5687 104.3 63.9901 102.218 63.643 101.293C62.2544 97.5932 61.3287 93.6617 60.1715 89.9615C59.0144 86.1457 58.0887 82.2142 57.163 78.0515C57.0472 77.3577 56.9315 76.6639 56.8158 75.8544C56.7001 74.8138 56.4687 73.8887 56.7001 73.1949C57.0472 72.2699 59.1301 71.2292 60.2872 70.7667C60.6344 70.651 62.6015 69.726 62.833 70.7667C62.9487 71.6917 60.9815 72.1542 60.6344 72.3855C59.7087 72.9637 59.0144 73.3106 58.3201 74.0043Z" fill="#7F1D3E"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M42.4671 84.9893C44.4343 92.2741 46.7486 99.5589 49.0629 106.728C49.2943 107.306 49.9886 109.388 48.9471 109.619C47.79 109.85 47.4429 107.537 47.0957 106.612C44.55 99.3276 42.6986 91.5803 40.6157 83.8329C40.2686 82.561 39.69 81.289 39.9214 79.9015C40.7314 79.3233 41.31 79.7858 41.6571 80.364C42.6986 81.8672 43.74 83.7173 44.6657 85.2205C47.4429 89.4989 50.3357 93.546 53.3443 97.5931C54.8486 99.6745 56.3529 101.756 57.9729 103.606C56.1214 96.6681 53.8071 89.7302 51.9557 82.561C51.4929 80.8265 51.03 78.9764 50.6829 77.1263C50.5671 76.5481 50.22 75.97 50.7986 75.3918C51.6086 75.0449 51.9557 75.97 52.3029 76.7794C52.8814 78.5139 53.5757 81.1734 54.0386 82.7923C55.4271 87.8801 57.1629 93.7773 58.6671 98.8651C59.0143 100.137 59.3614 101.409 59.7086 103.028C59.94 103.722 60.0557 103.953 60.1714 105.225C60.2871 105.919 60.1714 106.728 59.4771 106.844C58.5514 106.959 57.3943 105.456 56.7 104.647C55.89 103.722 54.9643 102.681 54.5014 101.987C52.9971 100.021 51.7243 98.1713 50.3357 96.4368C47.4429 92.7366 45.0129 88.9207 42.4671 84.9893Z" fill="#7F1D3E"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M31.5901 83.3705C33.2101 83.1392 34.8301 83.9486 35.7558 84.8737C37.1444 86.2613 38.4173 88.5739 39.2273 90.6553C40.5001 94.1242 41.4258 97.4776 42.1201 101.756C42.6987 105.109 43.7401 112.278 39.6901 112.394C38.4173 112.394 37.4915 111.469 36.5658 110.428C35.7558 109.503 35.1773 108.347 34.5987 107.422C32.7473 104.415 31.0115 100.831 29.8544 97.1307C29.1601 94.9337 28.3501 91.5803 28.4658 88.5739C28.5815 85.7987 29.1601 83.7174 31.5901 83.3705ZM30.0858 88.4583C30.0858 90.8865 30.6644 93.1992 31.243 95.2806C32.2844 99.4433 34.1358 103.259 35.9873 106.381C36.4501 107.075 36.913 107.884 37.6073 108.694C38.3015 109.503 39.2273 110.66 39.8058 110.544C41.4258 110.428 41.0787 106.266 40.7315 104.184C40.3844 101.872 39.9215 99.4433 39.4587 97.5932C38.4173 93.5461 37.2601 89.0364 34.9458 86.4925C34.1358 85.5675 32.9787 84.4112 31.4744 84.7581C30.3173 85.105 30.0858 86.8394 30.0858 88.4583Z" fill="#7F1D3E"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M145.106 81.0579C144.643 79.2078 143.37 77.4733 141.981 76.2014C141.287 75.5076 139.899 76.4327 140.593 77.3577C141.519 78.6297 142.676 79.786 143.023 81.4048C137.931 87.9958 132.261 97.4776 122.773 93.4305C118.723 91.696 115.02 87.7646 116.061 83.1393C116.987 79.2078 121.616 76.0858 124.74 74.0044C125.781 73.3106 124.856 71.6918 123.814 72.2699C118.839 75.392 114.094 80.3641 113.979 85.3363C112.127 86.6083 110.507 87.8802 108.887 89.3834C107.73 90.4241 106.457 91.3491 107.73 92.7367C108.656 93.6618 109.466 94.9337 110.854 94.2399C112.706 93.3149 114.094 91.5804 115.946 90.5397C116.64 91.4648 117.566 92.2742 118.723 93.0836C120.227 94.1243 121.847 95.0494 123.583 95.6275C122.541 97.8245 121.153 100.137 121.269 102.681C121.269 103.259 121.731 103.606 122.194 103.606C123.12 103.722 124.161 103.953 125.087 104.184C125.666 104.3 126.013 104.069 126.244 103.49C127.17 101.062 128.211 98.6339 129.369 96.2057V96.09C130.063 95.9744 130.757 95.8588 131.567 95.6275C137.006 93.893 141.287 86.4926 144.527 82.2142C144.643 82.0986 144.643 81.983 144.643 81.8674C144.99 81.983 145.221 81.5205 145.106 81.0579ZM112.127 91.1179C111.549 91.5804 110.97 92.1586 110.276 92.6211C109.929 92.8524 109.581 92.2742 109.234 91.9273C109.466 91.696 109.581 91.4648 109.813 91.3491C110.276 90.771 110.854 90.3085 111.433 89.8459C112.359 89.0365 113.284 88.3427 114.21 87.6489C114.326 88.1115 114.557 88.6896 114.789 89.1521C113.863 89.7303 112.937 90.4241 112.127 91.1179ZM124.624 102.45C124.046 102.334 123.583 102.219 123.004 102.103C123.236 100.022 124.509 98.1714 125.203 96.3213C125.897 96.4369 126.476 96.5526 127.17 96.5526C126.244 98.5183 125.434 100.484 124.624 102.45Z" fill="#CE6F2E"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M136.659 72.7323C135.27 72.0385 133.881 71.8073 132.377 71.4604C131.22 71.2291 130.641 73.0792 131.914 73.3105C133.187 73.5418 134.576 73.773 135.733 74.3512C136.774 74.9293 137.7 73.3105 136.659 72.7323Z" fill="#CE6F2E"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M77.4129 142.458C76.2558 139.683 75.4458 136.908 74.5201 134.017C74.1729 132.861 72.4372 133.323 72.6686 134.48C73.4786 137.486 74.2886 140.608 75.6772 143.383C76.2558 144.655 77.8758 143.615 77.4129 142.458Z" fill="#CE6F2E"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M87.2486 100.484C86.4386 100.831 85.7443 101.525 85.05 101.987C84.1243 102.681 85.2815 104.184 86.2072 103.491C86.9015 103.028 87.7115 102.566 88.2901 101.872C88.8686 101.178 87.9429 100.137 87.2486 100.484Z" fill="#CE6F2E"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M77.2972 112.163C74.7515 116.441 73.1315 121.645 72.6686 126.501C72.5529 127.773 74.7515 128.12 74.9829 126.848C75.7929 121.991 77.6443 117.597 79.1486 112.972C79.38 111.816 77.76 111.238 77.2972 112.163Z" fill="#CE6F2E"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M73.3628 111.469C72.7843 111.122 72.2057 111.006 71.6271 110.775C70.5857 110.313 69.7757 111.931 70.5857 112.625C71.0485 113.088 71.6271 113.319 72.2057 113.666C72.7843 114.013 73.5943 113.782 73.9414 113.203C74.1728 112.51 73.9414 111.816 73.3628 111.469Z" fill="white"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M41.6571 117.482V117.598C41.6571 118.754 43.5085 118.754 43.5085 117.598V117.482C43.3928 116.326 41.6571 116.326 41.6571 117.482Z" fill="white"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M74.6357 66.9508C74.4042 65.7945 72.7842 66.1414 72.6685 67.1821C72.5528 68.5696 73.0157 70.0729 73.3628 71.3448C73.7099 72.5011 75.3299 72.2699 75.3299 71.1135C75.4457 69.726 74.8671 68.3384 74.6357 66.9508Z" fill="white"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M144.18 63.2506C143.949 63.0193 143.601 62.9037 143.254 62.788C142.791 62.6724 142.329 62.788 141.981 63.2506C141.75 63.5975 141.75 64.2913 142.097 64.5225C142.329 64.7538 142.676 64.8694 143.023 64.9851C143.486 65.1007 143.949 64.8694 144.296 64.5225C144.527 64.1756 144.527 63.5975 144.18 63.2506Z" fill="white"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M137.931 77.3576C137.469 76.5482 136.659 76.0857 135.964 75.6231C135.154 75.045 134.344 74.5824 133.303 74.4668C132.493 74.3512 132.146 75.5075 132.609 76.0857C133.187 76.6638 133.881 77.0107 134.576 77.4732C135.27 77.9358 135.964 78.6295 136.774 78.8608C137.7 79.0921 138.394 78.0514 137.931 77.3576Z" fill="white"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M141.171 79.6703C140.94 79.3234 140.709 79.0922 140.246 79.0922C140.014 78.9765 139.899 79.0922 139.667 79.0922C139.32 79.0922 139.089 79.4391 138.973 79.7859V79.9016C138.973 80.0172 138.973 80.2485 138.973 80.3641C139.089 80.711 139.204 80.9423 139.551 81.2892C140.477 81.636 141.75 80.4797 141.171 79.6703Z" fill="white"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M135.154 95.3961C131.799 99.212 129.6 103.953 126.244 107.884C125.319 108.925 126.707 110.313 127.749 109.388C131.567 105.803 133.65 100.715 136.659 96.5525C137.121 95.6274 135.849 94.5867 135.154 95.3961Z" fill="white"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M107.73 124.189C107.151 123.957 106.341 124.189 105.879 124.535C104.953 125.229 105.531 126.732 106.689 126.501C107.036 126.386 107.383 126.386 107.73 126.27C108.771 125.923 108.771 124.535 107.73 124.189Z" fill="white"/>
+					<path d="M98.7043 101.872C97.7786 103.375 96.5058 104.3 95.1172 104.531C94.8858 104.531 94.6543 104.531 94.4229 104.531C93.4972 104.531 92.5715 104.3 91.8772 104.069C93.2658 103.144 94.4229 102.218 95.4643 100.947C96.8529 99.4433 98.1258 97.7088 99.0515 95.6274V95.7431C99.9772 97.7088 99.7458 100.021 98.7043 101.872ZM116.177 117.597C115.483 118.407 114.21 119.216 113.284 119.563C112.821 119.679 112.243 119.794 111.549 119.794C110.623 119.794 109.697 119.563 109.003 119.216C108.656 119.101 108.424 118.754 108.077 118.523C111.317 117.829 113.979 115.632 115.599 113.203C115.946 112.625 116.409 111.932 116.756 111.238C117.103 111.7 117.334 112.163 117.566 112.741C118.144 115.169 116.756 117.019 116.177 117.597Z" fill="white"/>
+					<path d="M99.0514 93.4305C98.9357 93.3149 99.0514 93.3149 99.0514 93.4305C98.9357 93.3149 98.82 93.1993 98.82 93.1993C98.7043 93.1993 98.7043 93.0836 98.5886 93.0836L98.4728 92.968C98.3571 92.8524 98.2414 92.8524 98.1257 92.7367C98.01 92.7367 97.8943 92.7367 97.7786 92.6211H97.6629C97.0843 92.7367 96.6214 93.3149 96.2743 93.7774C94.0757 95.7431 92.2243 97.1307 89.91 99.0965C89.3314 99.559 87.5957 100.715 87.5957 101.409C87.5957 101.987 88.1743 102.565 88.5214 103.028C88.9843 103.606 89.3314 104.069 89.6786 104.3C90.6043 105.109 92.4557 105.919 94.5386 105.919C94.8857 105.919 95.1171 105.919 95.4643 105.919C99.63 105.456 102.523 99.7903 100.556 95.2806C100.209 94.8181 99.63 94.0087 99.0514 93.4305ZM98.7043 101.872C97.7786 103.375 96.5057 104.3 95.1171 104.531C94.8857 104.531 94.6543 104.531 94.4228 104.531C93.4971 104.531 92.5714 104.3 91.8771 104.069C93.2657 103.144 94.4228 102.219 95.4643 100.947C96.8528 99.4434 98.1257 97.7089 99.0514 95.6275V95.7432C99.9771 97.7089 99.7457 100.022 98.7043 101.872Z" fill="#7F1D3E"/>
+					<path d="M118.954 112.625C118.723 111.585 118.144 110.66 117.334 109.85C117.219 109.735 117.103 109.619 116.987 109.619C116.871 109.503 116.871 109.503 116.756 109.388C116.524 109.272 116.409 109.156 116.177 109.041C116.061 109.041 116.061 108.925 115.946 108.925C115.714 108.81 115.483 108.694 115.136 108.578C115.02 108.578 115.02 108.578 114.904 108.463C114.673 108.347 114.441 108.347 114.094 108.231H113.979C113.631 108.231 113.4 108.116 113.053 108.116H112.937C112.821 108.116 112.706 108.116 112.59 108.116C110.97 108.231 110.044 108.694 109.003 109.272C108.193 109.735 107.614 110.197 107.036 110.891C106.804 111.238 106.457 111.7 106.226 112.047C106.11 112.278 105.994 112.51 105.879 112.741C105.879 112.857 105.879 112.857 105.763 112.972C105.647 113.204 105.647 113.435 105.531 113.666V113.782C105.531 114.013 105.416 114.36 105.416 114.591V114.707C105.416 114.938 105.416 115.169 105.416 115.401V115.516C105.416 116.094 105.531 116.672 105.763 117.135C105.879 117.713 106.11 118.176 106.457 118.638C106.92 119.332 107.499 120.026 108.309 120.373C109.119 120.835 110.391 121.066 111.433 121.066C112.243 121.066 112.937 120.951 113.631 120.72C114.904 120.257 116.293 119.332 117.219 118.407C118.491 117.251 119.533 115.054 118.954 112.625ZM116.177 117.598C115.483 118.407 114.21 119.216 113.284 119.563C112.821 119.679 112.243 119.795 111.549 119.795C110.623 119.795 109.697 119.563 109.003 119.216C108.656 119.101 108.424 118.754 108.077 118.523C111.317 117.829 113.979 115.632 115.599 113.204C115.946 112.625 116.409 111.932 116.756 111.238C117.103 111.7 117.334 112.163 117.566 112.741C118.144 115.169 116.756 117.019 116.177 117.598Z" fill="#7F1D3E"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M105.879 106.959C104.837 107.769 103.796 109.156 102.291 109.272C100.671 109.272 103.101 105.572 103.333 105.109C103.796 104.3 102.87 103.375 102.06 103.837C100.903 104.531 100.209 106.034 99.8614 107.191C99.3985 108.578 99.7457 109.966 101.019 110.891C102.986 112.278 106.226 109.619 107.383 108.116C108.193 107.191 106.689 106.266 105.879 106.959Z" fill="#7F1D3E"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M52.4186 123.379C51.4929 124.882 51.1457 126.732 50.22 128.236C48.6 127.426 46.7486 126.964 45.0129 127.773C43.74 128.351 44.8971 130.201 46.0543 129.623C47.3271 129.045 48.9471 129.854 49.9886 130.433C50.4514 130.664 51.1457 130.548 51.3771 130.086C52.4186 128.236 52.8814 126.154 53.8071 124.188C54.5014 123.148 53.1129 122.338 52.4186 123.379Z" fill="#CE6F2E"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M63.5271 127.889C61.7914 130.664 59.2457 138.643 54.8485 137.255C53.5757 136.908 52.9971 138.989 54.27 139.336C59.94 140.955 63.6428 132.63 65.2628 128.583C65.7257 127.658 64.1057 127.079 63.5271 127.889Z" fill="#CE6F2E"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M161.884 35.8459C161.653 30.2956 160.843 25.4391 159.223 20.9294C157.719 16.7667 155.751 12.604 152.974 9.59754C151.586 8.09432 149.966 6.82237 148.23 5.55043C146.61 4.27848 144.527 3.23779 142.56 2.42837C137.353 0.347 128.79 -0.924948 122.426 0.809527C120.921 1.27205 119.301 1.61895 118.029 2.08148C109.813 5.31916 103.449 10.6382 98.1257 16.4198C94.4229 20.4669 91.0671 24.6297 87.8271 29.0237C85.3971 32.377 83.3143 36.0772 81.2314 39.6618C80.5371 40.8181 79.9586 42.2057 79.1486 43.362C77.9914 40.5868 76.8343 38.2742 75.5614 35.8459C74.2886 33.4177 73.1314 30.8738 71.7429 28.5611C67.5771 21.9701 62.37 15.8416 56.1214 11.1007C54.0386 9.4819 51.6086 8.20995 49.0629 7.05364C44.0872 4.741 37.9543 2.544 30.78 3.35342C29.2757 3.46906 27.7714 3.93158 26.2671 4.39411C24.7629 4.741 23.2586 5.20353 21.9857 5.66606C19.2086 6.70674 16.8943 8.09432 14.9271 9.71317C10.9929 13.0665 7.75286 17.3449 5.32286 22.2014C2.89286 26.9423 0.69429 32.6082 0.231433 39.3149C-0.231424 46.1371 0.231433 53.1907 1.62 59.7817C2.77715 65.9102 4.51286 71.5761 6.59572 76.8952C7.63715 79.5547 8.91 82.0986 9.95143 84.5269C11.1086 87.0708 12.3814 89.499 13.77 91.9273C16.4314 96.6682 19.3243 101.293 22.2171 105.687C25.11 110.197 28.1186 114.591 31.2429 118.869C32.7471 121.066 34.2514 123.263 35.8714 125.345C37.4914 127.426 39.1114 129.392 40.8471 131.358C44.3186 135.289 48.0214 138.989 51.84 142.574C58.5514 148.818 65.2629 155.062 73.3629 159.803C74.52 160.497 75.9086 161.422 76.95 161.769C77.2971 161.884 77.4129 161.769 77.8757 161.538C79.7271 160.844 81.5786 159.687 83.0829 158.994C88.8686 155.987 93.7286 151.825 98.5886 148.124C103.68 144.308 108.54 140.493 112.937 136.099C114.441 134.595 115.714 133.092 117.219 131.589C120.111 128.698 122.889 125.576 125.434 122.223C126.707 120.604 127.98 118.985 129.253 117.251C130.526 115.632 131.683 113.782 132.84 112.047C135.27 108.694 138.857 103.144 141.056 99.4433C142.097 97.5932 149.04 86.9551 154.826 72.5012C156.909 67.0665 160.033 57.2378 160.843 52.15C161.653 47.1778 162.116 41.6275 161.884 35.8459ZM156.446 41.8588C156.214 47.0622 155.751 51.9187 154.71 56.1971C153.669 60.4755 152.164 64.4069 150.776 68.3384C147.767 76.2014 144.411 83.3705 140.824 90.5397C139.899 92.3898 138.973 94.1243 138.047 95.9744C135.27 101.178 131.799 105.919 128.674 110.775C127.633 112.394 126.476 114.013 125.319 115.516C123.583 117.944 121.847 120.026 119.88 122.107C118.607 123.495 117.334 124.998 116.061 126.386C115.483 127.079 114.673 127.657 114.094 128.351C112.821 129.739 111.433 131.011 109.929 132.283C108.54 133.555 107.267 134.942 105.879 136.214C104.49 137.486 102.986 138.758 101.597 140.03C97.2 143.846 92.9186 146.968 87.9429 150.553C86.4386 151.593 84.9343 152.75 83.1986 153.906C82.5043 154.368 81.5786 154.831 80.6529 155.409C79.8429 155.872 78.57 156.912 78.1071 156.912C77.8757 156.912 76.95 156.334 76.3714 155.987C72.5529 153.559 68.9657 150.784 65.4943 148.24C61.3286 145.002 57.6257 141.996 54.1543 138.296C54.0386 138.18 53.9229 138.064 53.8071 137.949C52.7657 137.717 51.6086 137.371 50.9143 136.677C49.41 135.289 47.6743 133.323 46.17 131.589C45.5914 130.895 45.0129 129.854 45.1286 129.161C45.1286 129.045 45.1286 128.929 45.2443 128.929C45.2443 128.929 45.2443 128.814 45.36 128.814C43.2771 126.501 41.1943 124.073 39.1114 121.645C34.3671 115.863 30.0857 109.503 25.92 102.912C23.1429 98.6339 20.4814 94.2399 18.0514 89.499C17.4729 88.3427 16.8943 87.1864 16.3157 85.9144C15.7371 84.7581 15.0429 83.6018 14.58 82.3299C13.5386 79.9016 12.4971 77.3577 11.4557 74.8138C10.4143 72.2699 9.37286 69.726 8.67858 66.9508C7.86858 64.1757 6.94286 61.4005 6.48 58.5097C5.20715 52.2656 4.62858 45.559 5.32286 38.7367C5.55429 37.0022 5.67 35.499 6.01715 34.1115C6.36429 32.7239 6.82715 31.4519 7.40572 30.18C8.44715 27.6361 9.48857 25.3234 10.8771 23.0108C14.9271 16.5354 20.4814 10.9851 28.5814 8.78811C31.4743 7.97869 34.4829 7.86306 38.07 8.44122C39.69 8.67248 41.1943 8.90375 42.4671 9.36627C43.74 9.8288 44.8971 10.407 46.0543 11.1007C49.2943 12.9509 52.7657 15.0322 55.7743 17.3449C58.6671 19.6575 61.0971 22.6639 63.4114 25.6703C64.9157 27.6361 66.5357 29.7174 67.8086 31.9144C69.0814 34.1115 70.2386 36.4241 71.6272 38.7367C73.4786 41.9744 75.33 45.4434 77.2971 49.0279C77.5286 49.4905 77.76 50.1843 78.2229 50.7624C78.57 51.3406 79.0329 52.0344 79.6114 52.0344C80.3057 52.0344 80.6529 51.1093 81 50.2999C81.9257 48.1029 82.8514 46.0215 83.8929 44.1714C85.3971 41.5119 86.7857 38.968 88.1743 36.5397C91.1829 31.3363 94.8857 27.0579 98.4729 22.8952C101.25 19.7731 104.143 16.5354 107.614 13.9915C108.771 13.1821 109.929 12.3727 111.201 11.5633C112.474 10.7539 113.631 9.94443 115.02 9.25064C118.954 7.16927 123.236 5.78169 129.137 5.43479C134.46 5.0879 139.089 6.24422 142.791 7.97869C146.61 9.71317 148.924 12.3727 151.007 15.8416C153.09 19.195 154.71 22.8952 155.636 27.4048C156.099 29.6018 156.446 32.0301 156.561 34.4583C156.446 36.8866 156.677 39.3149 156.446 41.8588Z" fill="#5EBEBA"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M104.49 138.18C107.614 135.173 110.739 132.051 113.631 128.814C115.599 126.732 117.219 124.42 119.07 122.338C118.491 122.801 118.029 123.148 117.334 123.61C114.326 125.576 111.086 127.195 107.383 128.582C100.324 131.358 93.3814 134.595 87.48 138.411C82.5042 141.533 77.6442 145.349 74.7514 150.437C74.4043 151.015 72.9 153.328 73.8257 154.021C74.9828 154.831 76.3714 152.403 77.0657 152.518C76.7185 153.328 75.7928 155.293 76.8343 155.756C77.76 156.218 78.3385 155.293 79.0328 155.178C78.6857 156.334 78.9171 157.259 79.8428 157.375C80.7685 157.49 82.0414 156.334 82.9671 155.64C83.8928 154.831 84.8185 154.137 85.6285 153.443C87.9428 151.478 100.671 141.88 104.49 138.18Z" fill="#FFD15F"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M80.19 157.259C81.81 149.049 88.9843 142.343 95.9271 138.296C100.556 135.636 104.953 133.323 109.466 130.548C114.904 127.195 118.144 124.535 120.111 121.991C119.533 122.454 118.029 123.148 117.45 123.61C114.441 125.576 111.201 127.195 107.499 128.582C100.44 131.358 93.4971 134.595 87.5957 138.411C82.62 141.533 77.76 145.349 74.8671 150.437C74.52 151.015 73.0157 153.328 73.9414 154.021C75.0985 154.831 76.4871 152.403 77.1814 152.518C76.8343 153.328 75.9085 155.293 76.95 155.756C77.8757 156.218 78.4543 155.293 79.1485 155.178C78.8014 156.334 79.0328 157.259 79.9585 157.375C79.9585 157.259 80.0743 157.259 80.19 157.259Z" fill="#F9A63B"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M117.566 122.57C111.664 126.733 105.069 128.698 98.4728 131.589C91.0671 134.711 83.5457 138.989 77.5285 144.424C76.4871 145.349 77.9914 146.852 79.0328 145.927C85.3971 140.03 93.8443 135.636 101.829 132.514C107.614 130.201 113.979 128.351 118.607 124.073C119.417 123.264 118.491 121.992 117.566 122.57Z" fill="#CE6F2E"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M88.1743 147.546C86.4386 148.24 84.7029 149.743 83.7772 151.362C83.1986 152.403 84.5872 153.559 85.3972 152.634C86.5543 151.362 87.8272 150.437 89.2157 149.281C90.1415 148.703 89.2157 147.199 88.1743 147.546Z" fill="white"/>
+					</g>
+					<defs>
+					<clipPath id="clip0_346_328">
+					<rect width="162" height="162" fill="white"/>
+					</clipPath>
+					</defs>
+				</svg>					
+			</div>
+		</div>
+	</footer>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
+	<script>
+		SmoothScroll({
+			animationTime    : 800,
+			stepSize         : 75,
+	
+			
+			accelerationDelta : 30,  
+			accelerationMax   : 2,   
+	
+	
+			keyboardSupport   : true,  
+			arrowScroll       : 50,
+	
+	
+			pulseAlgorithm   : true,
+			pulseScale       : 4,
+			pulseNormalize   : 1,
+	
+			touchpadSupport   : true,
+		})
+	</script>
+
+	<script src="libs/jquery/jquery.min.js"></script>
+	
+	<script src="js/common.js"></script>
+	
+</body>
+</html>
