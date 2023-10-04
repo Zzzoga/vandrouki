@@ -6,8 +6,7 @@ if (document.documentElement.clientWidth > 480) {
         slidesToScroll: 13,
         variableWidth: true,
         prevArrow: '.arrow__container.prev',
-        nextArrow: '.arrow__container.next',
-        swipeToSlide: true
+        nextArrow: '.arrow__container.next'    
     });
 } else {
     $('.cat__list').slick({

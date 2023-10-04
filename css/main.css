@@ -1236,7 +1236,7 @@ a.banner__btn:hover {
 .arrow__container {
     width: 60px;
     height: 65px;
-    display: flex;
+    display: flex !important;
     align-items: center;
     background: #fff;
     z-index: 1;
@@ -1245,6 +1245,10 @@ a.banner__btn:hover {
 
 .arrow__container.next {
     justify-content: flex-end;
+}
+
+.slick-arrow.slick-disabled {
+	display: none !important;
 }
 
 /* DETAIL PAGE */
