@@ -181,6 +181,7 @@ header#header {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    transition: all .5s ease;
 }
 
 .header__info {
@@ -436,6 +437,7 @@ span.from__text {
 .from {
     display: flex;
     align-items: flex-start;
+    position: relative;
 }
 
 .from__btn {
@@ -449,7 +451,7 @@ span.from__text {
     cursor: pointer;
     position: relative;
     overflow: hidden;
-    z-index: 2;
+    z-index: 3;
     transition: all .5s ease;
 }
 
@@ -477,7 +479,7 @@ section.content__control {
 
 .from__btn svg {
     z-index: 1;
-    margin-left: 20px;
+    margin-left: 14px;
     transition: all .5s ease;
 }
 
@@ -791,7 +793,7 @@ a.footer__nav__link:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: url(../img/banner_bg.png) repeat-x center bottom;
+    background: url(../img/banner_bg.svg) repeat-x center bottom;
     background-color: #fff;
     padding: 20px 0 0;
 }
@@ -833,9 +835,13 @@ a.btn:hover > .btn__overlay {
     margin-top: 5px;
 }
 
+.menu {
+    position: relative;
+}
+
 .menu__wrapper {
     position: relative;
-    z-index: 4;
+    z-index: 5;
 }
 
 nav.nav__list ul li {
@@ -895,8 +901,8 @@ svg.menu__van {
     position: absolute;
     width: 300px;
     height: 0px;
-    left: 1305px;
-    top: 120px;
+    right: 0;
+    top: -15px;
     overflow: hidden;
     z-index: 4;
     transition: all .5s ease;
@@ -923,17 +929,20 @@ svg.menu__van {
 	z-index: 3;
 }
 
+.overlay.overlay__menu {
+    z-index: 4;
+}
 /* MODAL */
 
 .from__modal__container {
     position: absolute;
     width: 320px;
     height: 0px;
-    left: 315px;
-    top: 300px;
+    left: 0;
+    top: 60px;
     overflow: hidden;
     z-index: 3;
-    transition: all 1s ease;
+    transition: all .5s ease;
 }
 
 .from__modal__container.active {
@@ -944,7 +953,7 @@ svg.menu__van {
 	display: flex;
 	flex-direction: column;
 	position: absolute;
-	top: 60px;
+	top: 0;
 	z-index: 2;
 	width: 320px;
 	max-height: 340px;
@@ -1040,7 +1049,7 @@ a.from__list__link.active {
 }
 
 .from.active .from__modal__container {
-    height: 400px;
+    /* height: 400px; */
 }
 
 /* TOP BANNER */
@@ -1254,17 +1263,24 @@ a.banner__btn:hover {
 /* DETAIL PAGE */
 
 .section__wrapper.detail__post {
-    flex-direction: column;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-right: 110px;
+}
+
+.detail__post__container {
+    display: flex;
     align-items: flex-start;
 }
 
 .post__wrapper {
     width: 100%;
     max-width: 1070px;
-    margin-left: 110px;
+    margin-left: 30px;
     margin-bottom: 60px;
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 .post {
@@ -1273,24 +1289,29 @@ a.banner__btn:hover {
 }
 
 a.back__btn {
+    display: flex;
+    width: 80px;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
     color: var(--Primary, #007EA7);
     text-align: center;
     font-family: Open Sans;
-    font-size: 14px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 600;
-    line-height: 24px; /* 171.429% */
+    line-height: 1; /* 171.429% */
     text-decoration: none;
-    background: url(../img/ui/back__icon.svg) no-repeat 16px center;
+    background: url(../img/ui/back__icon.svg) no-repeat 10px center;
     border-radius: 10px;
     background-color: #FFF;
-    padding: 10px 25px 10px 42px;
+    padding: 10px 15px 10px 24px;
     margin-bottom: 30px;
     transition: all .5s ease;
 }
 
 a.back__btn:hover {
-    background: url(../img/ui/back__icon__hover.svg) no-repeat 16px center;
+    background: url(../img/ui/back__icon__hover.svg) no-repeat 10px center;
     background-color: #007EA7;
     color: #fff;
 }
@@ -1309,10 +1330,10 @@ a.back__btn:hover {
     color: #414244;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: 'Georgia';
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 150% */
+    line-height: 26px; /* 150% */
 }
 
 .post__date__share {
@@ -1379,26 +1400,32 @@ a.btn.push__btn svg {
 
 a.content__link {
     color: #007EA7;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 1px solid;
     transition: all .5s ease;
 }
 
 a.content__link:hover {
-    color: #000;
+    color: #FB8A16;
 }
 
 .infoblock {
     background: #007EA7;
     color: #fff;
     padding: 30px;
+    font-family: 'Georgia', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
 }
 
-.white__color {
-    color: #fff !important;
+a.content__link.white__color {
+    color: #fff;
 	transition: all .5s ease;
 }
 
-.white__color:hover {
-	opacity: .8;
+a.content__link.white__color:hover {
+	color: #FB8A16;
 }
 
 .row-space-between {
@@ -1407,7 +1434,7 @@ a.content__link:hover {
 }
 
 .recent__post {
-    margin-left: 110px;
+    margin: 60px 0 0;
 }
 
 a.share__btn {
@@ -1491,4 +1518,14 @@ a.post__share__btn:hover {
 
 .mobile__menu__close {
 	display: none;
+}
+
+.header_fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 9;
+    transform: translateY(-89px);
 }

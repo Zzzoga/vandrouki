@@ -109,14 +109,14 @@ document.addEventListener('DOMContentLoaded', () => {
 		})
 	}
 
-	showHideModal('.menu__icon', '.menu', '.menu__list', '.menu .overlay')
-	showHideModal('.mobile__menu__close', '.menu', '.menu__list', '.menu .overlay')
-	overlayClickHideModal('.menu .overlay', '.menu__list', '.menu')
+	showHideModal('.menu__icon', '.menu', '.menu__list', '.overlay__menu')
+	showHideModal('.mobile__menu__close', '.menu', '.menu__list', '.overlay__menu')
+	overlayClickHideModal('.overlay__menu', '.menu__list', '.menu')
 
 	if (document.querySelector('.from__btn') !== null) { 
-		showHideModal('.from__btn', '.from', '.from__modal__container', '.from__overlay')
-		showHideModal('img.from__modal__close', '.from', '.from__modal__container', '.from__overlay')
-		overlayClickHideModal('.from__overlay', '.from__modal__container', '.from')
+		showHideModal('.from__btn', '.from', '.from__modal__container', '.overlay__from')
+		showHideModal('img.from__modal__close', '.from', '.from__modal__container', '.overlay__from')
+		overlayClickHideModal('.overlay__from', '.from__modal__container', '.from')
 
 		document.querySelectorAll('.from__list__link').forEach(btn => {
 			btn.addEventListener('click', e => {
@@ -274,4 +274,23 @@ document.addEventListener('DOMContentLoaded', () => {
 		 
 	})
 
+	// fixed header on scroll
+	$(function() {
+		let header = $('header');
+		let hederHeight = header.height(); // вычисляем высоту шапки
+		 
+		$(window).scroll(function() {
+		  if($(this).scrollTop() > 400) {
+		   header.addClass('header_fixed');
+		   $('body').css({
+			  'paddingTop': hederHeight+'px' // делаем отступ у body, равный высоте шапки
+		   });
+		  } else {
+		   header.removeClass('header_fixed');
+		   $('body').css({
+			'paddingTop': 0 // удаляю отступ у body, равный высоте шапки
+		   })
+		  }
+		});
+	});
 })
