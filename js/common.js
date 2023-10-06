@@ -63,11 +63,10 @@ document.addEventListener('DOMContentLoaded', () => {
 				setTimeout(()=> {
 					document.querySelector(modal).classList.add('active')
 					document.querySelector(menu).classList.add('active')
-				}, 500)
+				}, 100)
 				setTimeout(()=> {
 					html.style.overflowY = 'hidden'
-					
-				}, 1000)
+				}, 500)
 			} else {
 				setTimeout(()=> {
 					document.querySelector(modal).classList.remove('active')
@@ -75,14 +74,14 @@ document.addEventListener('DOMContentLoaded', () => {
 				}, 0)
 				setTimeout(()=> {
 					document.querySelector(overlay).style.opacity = '0'
+				}, 100)
+				setTimeout(()=> {
+					document.querySelector(menu).style.display = 'none'
 				}, 500)
 				setTimeout(()=> {
 					document.querySelector(overlay).style.display = 'none'
-					document.querySelector(menu).style.display = 'none'
-				}, 1000)
-				setTimeout(()=> {
 					html.style.overflowY = 'visible'
-				}, 1000)
+				}, 600)
 			}
 		})
 	}
@@ -97,14 +96,14 @@ document.addEventListener('DOMContentLoaded', () => {
 				}, 0)
 				setTimeout(()=> {
 					document.querySelector(overlay).style.opacity = '0'
+				}, 100)
+				setTimeout(()=> {
+					document.querySelector(menu).style.display = 'none'
 				}, 500)
 				setTimeout(()=> {
 					document.querySelector(overlay).style.display = 'none'
-					document.querySelector(menu).style.display = 'none'
-				}, 1000)
-				setTimeout(()=> {
 					html.style.overflowY = 'visible'
-				}, 1000)
+				}, 600)
 			}
 		})
 	}
@@ -134,16 +133,16 @@ document.addEventListener('DOMContentLoaded', () => {
 							document.querySelector('.from__modal__container').classList.remove('active')
 						}, 0)
 						setTimeout(()=> {
-							document.querySelector('.from__overlay').style.opacity = '0'
+							document.querySelector('.overlay__from').style.opacity = '0'
+						}, 100)
+						setTimeout(()=> {
+							document.querySelector('.from__modal__container').style.display = 'none'
 						}, 500)
 						setTimeout(()=> {
-							document.querySelector('.from__overlay').style.display = 'none'
-							document.querySelector('.from__modal__container').style.display = 'none'
-						}, 1000)
-						setTimeout(()=> {
+							document.querySelector('.overlay__from').style.display = 'none'
 							html.style.overflowY = 'visible'
-						}, 1000)
-					}, 500)
+						}, 600)
+					}, 100)
 				} else {
 					setTimeout(() => {
 						setTimeout(()=> {
@@ -151,16 +150,16 @@ document.addEventListener('DOMContentLoaded', () => {
 							document.querySelector('.from__modal__container').classList.remove('active')
 						}, 0)
 						setTimeout(()=> {
-							document.querySelector('.from__overlay').style.opacity = '0'
+							document.querySelector('.overlay__from').style.opacity = '0'
+						}, 100)
+						setTimeout(()=> {
+							document.querySelector('.from__modal__container').style.display = 'none'
 						}, 500)
 						setTimeout(()=> {
-							document.querySelector('.from__overlay').style.display = 'none'
-							document.querySelector('.from__modal__container').style.display = 'none'
-						}, 1000)
-						setTimeout(()=> {
+							document.querySelector('.overlay__from').style.display = 'none'
 							html.style.overflowY = 'visible'
-						}, 1000)
-					}, 500)
+						}, 600)
+					}, 100)
 				}
 			})
 		});
