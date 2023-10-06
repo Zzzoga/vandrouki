@@ -1056,7 +1056,7 @@ a.from__list__link.active {
 
 .info__banner__modal__container {
     position: fixed;
-    z-index: 5;
+    z-index: 9;
     width: 100vw;
     height: 0vh;
     overflow: hidden;
