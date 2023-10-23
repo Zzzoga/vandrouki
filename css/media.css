@@ -409,6 +409,7 @@
 		background: url(../img/slogan__bg__mobile.svg) no-repeat left top;
 		padding: 10px 19px 13px 11px;
 		background-size: 100%;
+		font-size: 11px;
 	}
 	
 	.info__banner__wrapper {
@@ -877,6 +878,11 @@
 	a.btn {
 	    padding: 10px 22px;
 	    line-height: 24px;
+	    border-radius: 10px;
+	}
+
+	.from__btn {
+	    padding: 14px 10px;
 	    border-radius: 10px;
 	}
 }
