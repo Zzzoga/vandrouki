@@ -1349,6 +1349,10 @@ a.back__btn:hover {
     line-height: 26px; /* 150% */
 }
 
+.post__content img {
+    width: 100%;
+}
+
 .post__date__share {
     display: flex;
     justify-content: space-between;

@@ -1,7 +1,7 @@
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1180px) {
 	.section__wrapper {
 		max-width: 1024px;
 	}
@@ -161,11 +161,6 @@
 	a.logo svg {
 		width: 120px;
 	}
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 1180px) {
-
 }
 
 /* Small Devices, Tablets */
